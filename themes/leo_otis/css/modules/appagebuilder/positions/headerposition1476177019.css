@@ -1,0 +1,242 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 5, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+#topbar {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 8, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-top-header {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 11, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-top-header > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 15, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-top-header .left-top-header {
+  -webkit-justify-content: flex-start;
+  /* Safari 6.1+ */
+  justify-content: flex-start;
+}
+/* line 18, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-top-header .right-top-header {
+  -webkit-justify-content: flex-end;
+  /* Safari 6.1+ */
+  justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+  /* line 23, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  /* line 23, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top {
+    margin-bottom: 10px;
+  }
+}
+/* line 31, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-header-top > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+@media (max-width: 991px) {
+  /* line 35, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top .group-logo {
+    -webkit-justify-content: center;
+    /* Safari 6.1+ */
+    justify-content: center;
+  }
+}
+/* line 39, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-header-top .group-logo .logo {
+  display: inline-block;
+  padding: 30px 0 40px;
+}
+@media (min-width: 992px) {
+  /* line 35, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top .group-logo {
+    padding: 0 0 0 15px;
+    width: calc(25% - 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-logo {
+    padding: 0 15px 0 0;
+  }
+  /* line 46, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top .group-logo a {
+    width: 100%;
+  }
+}
+/* line 51, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-header-top .group-search {
+  -webkit-justify-content: center;
+  /* Safari 6.1+ */
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  /* line 51, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top .group-search {
+    padding: 0 15px 0 0;
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-search {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 51, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top .group-search {
+    display: initial;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+/* line 62, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-header-top .group-cart {
+  -webkit-justify-content: space-between;
+  /* Safari 6.1+ */
+  justify-content: space-between;
+}
+@media (min-width: 992px) {
+  /* line 62, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top .group-cart {
+    padding: 0 15px 0 0;
+    width: calc(25% + 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-cart {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 62, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-top .group-cart {
+    -webkit-justify-content: flex-end;
+    /* Safari 6.1+ */
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 73, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-bottom {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+  }
+}
+/* line 78, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-header-bottom > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 82, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+.box-header-bottom .group-megamenu {
+  min-height: auto;
+}
+@media (min-width: 992px) {
+  /* line 82, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-bottom .group-megamenu {
+    padding: 0 15px 0 0;
+    width: calc(75% + 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-bottom .group-megamenu {
+    padding: 0 0 0 15px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 89, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .box-header-bottom .group-vertical-menu {
+    padding: 0 0 0 15px;
+    width: calc(25% - 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-bottom .group-vertical-menu {
+    padding: 0 15px 0 0;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 99, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .header_user_info .popup-content {
+    display: block;
+    position: static;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    -webkit-animation: none;
+    animation: none;
+    border: none;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 112, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .hotline.hotline-top {
+    margin: 0 20px;
+  }
+
+  /* line 116, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .group-megamenu {
+    position: static !important;
+  }
+
+  /* line 120, ../../../../sass/modules/appagebuilder/positions/headerposition1476177019.scss */
+  .navbar-header {
+    position: absolute;
+    left: 15px;
+    top: -50px;
+  }
+  /* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .navbar-header {
+    right: 15px;
+    left: auto;
+  }
+}

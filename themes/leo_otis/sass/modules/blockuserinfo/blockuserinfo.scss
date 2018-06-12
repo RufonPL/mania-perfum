@@ -1,0 +1,79 @@
+@import "compass";
+@import "theme_variables";
+
+.header_user_info{
+	@include rtl-margin-right(0);
+	@media (min-width: 992px) {
+		padding: 0;
+	}
+	.popup-title{
+	    display: none;
+	    @media (max-width: 991px) {
+	    	padding: 0;
+	    }
+		@media (max-width: 767px) {
+			a > .fa{
+				display: inline-block;
+			}
+		}
+		span{
+			@media (max-width: 479px) {
+				display: none;
+			}
+		}
+	}
+	.links{
+        @media (min-width: 992px) {
+            padding: 6px 0;      
+        }
+		@media (max-width: 991px) {
+			width: 150px;
+			@include rtl-left-right(auto,0);
+			padding: 10px 15px;
+			display: none;
+		}
+		li{
+			@media(min-width: 992px){
+				@include rtl-margin(0px,15px,0px,15px);
+				position: relative;
+				&:after{
+					content: '';
+					position: absolute;
+					width: 1px;
+					height: 15px;
+					background: #e5e5e5;
+					top: 0px;
+					@include rtl-right(-15px);
+				}
+				&:last-child{
+					@include rtl-margin(0px,0px,0px,15px);
+					&:after{
+						display: none;
+					}
+				}
+			}
+			@media (max-width: 991px) {
+				display: block;
+				padding: 3px 0;
+				.ap-btn-wishlist{
+					padding: 0;
+				}
+			}
+			a{
+				@media (min-width: 992px) {
+					margin: 0;
+				}
+				@media (max-width: 991px) {
+					@include display-flex();
+				}
+			}
+		}
+		span{
+			font-size: 13px;
+		}
+		.fa{
+			@include hidden-lg();
+			@include hidden-md();
+		}
+	}
+} 

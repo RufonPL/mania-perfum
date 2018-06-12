@@ -1,0 +1,46 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 7, ../../../sass/modules/mailalerts/mailalerts.scss */
+#mailalerts_block_account li.last_item {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+/* line 11, ../../../sass/modules/mailalerts/mailalerts.scss */
+#mailalerts_block_account li .products-block-image {
+  float: left;
+  margin-right: 19px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #mailalerts_block_account li .products-block-image {
+  float: right;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #mailalerts_block_account li .products-block-image {
+  margin-left: 19px;
+  margin-right: inherit;
+}
+/* line 15, ../../../sass/modules/mailalerts/mailalerts.scss */
+#mailalerts_block_account li .remove {
+  float: right;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #mailalerts_block_account li .remove {
+  float: left;
+}
+/* line 17, ../../../sass/modules/mailalerts/mailalerts.scss */
+#mailalerts_block_account li .remove i {
+  cursor: pointer;
+}

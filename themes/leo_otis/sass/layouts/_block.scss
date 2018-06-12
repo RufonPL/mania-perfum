@@ -1,0 +1,110 @@
+@import "vars/block.vars";
+
+// block.scss 
+
+// block in sidebar - left column, right column
+.sidebar{
+    .#{$block-selector} { 
+        margin-bottom: $block-margin-bottom;  
+        @media (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+        .#{$block-heading-selector}{
+            margin: 0;
+            color: $block-heading-color;
+            a{
+                color: $block-heading-color;
+                &:hover{
+                    color: $theme-color-default;
+                    span{
+                        color: $theme-color-default;
+                    }
+                }
+                span{
+                    color: #333333;
+                }
+            }
+            position: relative;                                                             
+            text-transform: $block-heading-transform;
+            font-family: $block-heading-font-family;    
+            padding: $block-heading-padding;         
+            font-size: $block-heading-font-size;
+            letter-spacing: $block-heading-letter-spacing;   
+            border-bottom: $block-heading-border;
+            font-weight: 900;
+            @media (max-width: 767px) {
+                padding: 0 0 15px
+            }
+            span{
+                color: #333333;
+            }
+        }
+        .#{$block-content-selector} {        
+            padding: 30px 0 0 ; 
+            @include rounded-corners ($block-content-radius);
+            @include clearfix();     
+            .product-block{
+                margin-bottom: 15px;
+                border: none;
+                .products-block-image{
+                    width: 90px;
+                    @include rtl-margin-right(0px);
+                    border: 1px solid #f3f3f3;
+                    @include border-radius(3px);
+                    overflow: hidden;
+                }
+                .name{
+                    @include rtl-margin(5px,0,15px,0);
+                }  
+                .media-body{
+                    padding: 0 10px;
+                }
+            }
+            .products {
+                @include clearfix();
+                & > .media{
+                    margin-top: 0;
+                    @media (max-width: 991px) and (min-width: 768px) {
+                        width: 50%;
+                        @include rtl-float-left();
+                    }
+                }
+
+            } 
+            .list-group{
+                margin-bottom: 0
+            }  
+            .lnk_wishlist .fa{
+                display: none;
+            }               
+        }
+    }
+
+    // block-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+    // Contextual variations
+    // .#{$block-prefix}-default {
+    //   @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+    // }
+    // .#{$block-prefix}-primary {
+    //   @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+    // }
+    // .#{$block-prefix}-success {
+    //   @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+    // }
+    // .#{$block-prefix}-info {
+    //   @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+    // }
+    // .#{$block-prefix}-warning {
+    //   @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+    // }
+    // .#{$block-prefix}-danger {
+    //   @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+    // }
+    // .#{$block-prefix}-highlighted {
+    //     @include block-variant($block-highlighted-border, $block-highlighted-text, $block-highlighted-bg, $block-highlighted-border);
+    // }
+}
+
+// block in header
+// block in footer
+// block in main

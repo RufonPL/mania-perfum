@@ -1,0 +1,204 @@
+@import "compass";
+@import "theme_variables";
+
+#leo_search_block_top{
+	position: relative;
+	border: none;
+	@media (max-width: 991px){
+		display: inline-block;
+		margin: 10px 0;
+	}
+	.title_block{
+		font-size: 18px;
+		color: $white;
+		padding: 5px 0 10px 0;
+		border: none;
+		display: none;
+	}
+	.block_content{
+		position: relative;
+		margin-bottom: 0px;
+		@include rtl-float-right();
+		overflow: hidden;
+	}
+	.form-control{
+		@include rtl-float-left;
+		height: 40px;
+		@include border-radius(0);
+		@include box-shadow(none);
+	}
+	.form-select{
+		
+
+	}
+	.title-search{
+		display: none;
+	}
+	.box-select{
+		// @include rtl-padding-right(42px);
+		@include rtl-border-radius(50px,0,0,50px);
+		@include rtl-border-width(1px,0,1px,1px); 
+		border-color: #ebebeb;
+		border-style: solid;
+		background: #f7f7f7;
+		@include rtl-float-left();
+		@media (max-width: 767px){
+			display: none;
+		}
+		&:after{
+			width: 25px;
+			height: 38px;
+			line-height: 38px;
+			@include rtl-right(0px);
+			font-size: 13px;
+			@media (max-width: 1199px) and (min-width: 992px){
+				width: 20px;
+				// @include rtl-right(0px);
+			}
+			// @media (max-width: 991px){
+			// 	@include rtl-right(0px);
+			// }
+		}
+		#cate{
+			height: 38px;
+			width: 150px;
+			border: none;
+			background: $nocolor;
+			font-size: 13px;
+			font-weight: 400;
+			@include rtl-margin-left(0);
+			@include rtl-padding(0,25px,0,20px);
+			@media (max-width: 1199px) and (min-width: 992px){
+				width: 130px;
+				@include rtl-padding(0,20px,0,15px);
+			}
+	    	&:focus,&:hover,&:active{ 
+		    	outline: none;
+			}
+			&:-moz-focusring {
+			    color: transparent;
+			    @include text-shadow(0 0 0 #000);
+			}
+		}
+	}
+	.search_query{
+		width: 280px;
+		border: none;
+		font-size: 13px;
+		@include rtl-border-width(1px,0,1px,0); 
+		border-color: #ebebeb;
+		border-style: solid;
+		@media (max-width: 1199px) and (min-width: 992px){
+			width: 255px;
+			@include rtl-padding(6px,20px,6px,12px);
+		}
+		@media (max-width: 991px){
+			width: 250px;
+			@include rtl-border-width(1px,0,1px,1px);
+		}
+		@media (max-width: 767px){
+			@include rtl-border-radius(50px,0,0,50px);
+		}
+		@media (max-width: 479px){
+			width: 200px;
+		}
+	}
+	#leo_search_top_button{
+		@include rtl-float-left();
+		@include rtl-border-radius(0,50px,50px,0);
+		@include rtl-border-width(0,1px,0,1px); 
+		border-color: #222222;
+		border-style: solid;
+		z-index: 99;
+		border: none;
+		padding: 0;
+		@include size(65px,40px);
+		color: #fefefe;
+		background: #222222;
+		@include transition(all 0.3s ease);
+		&:hover,&:active,&:focus{
+			background: $link_hover_color;
+			border: none;
+			outline: 0;
+			@include box-shadow(none);
+		}
+	}
+	#leosearchtopbox{
+		line-height: normal;
+	}
+	#click_show_search{
+		display: none;
+		font-size: 14px;
+		padding: 11px 0;
+	}
+}
+
+.ac_results{
+	@media (max-width: 991px) {
+		width: 700px !important;
+	}
+	@media (max-width: 767px) {
+		width: 500px !important;
+	}
+	@media (max-width: 479px) {
+		width: 300px !important;
+	}
+	@media (max-width: 350px) {
+		width: 270px !important;
+	}
+}
+
+.tags-search{
+	@media (min-width: 992px) {
+	    position: absolute;
+	    bottom: -30px;
+	    @include rtl-left(55px);
+	    @media (max-width: 1199px) {
+	    	@include rtl-left(25px);
+	    }
+	}
+	@media (max-width: 991px){
+		display: inline-block;
+	}
+	font-size: 13px;
+	color: #888888;
+    b{
+    	color: #333333;
+    }
+}
+
+#module-leoproductsearch-productsearch{
+	.top-pagination-content .product-count{
+		display: none;
+	}
+	.product_list .product-block{
+		margin-bottom: 25px;
+	}
+	.list{
+		.right-block{
+			text-align: initial;
+		}
+		.product-desc{
+			display: block;
+		}
+	}
+} 
+
+.layout-boxed-md{
+	#leo_search_block_top{
+		.box-select{
+			&:after{
+				width: 20px;
+				// @include rtl-right(0px);
+			}
+			#cate{
+				width: 130px;
+				@include rtl-padding(0,20px,0,15px);
+			}
+		} 
+		.search_query{
+			width: 255px;
+			@include rtl-padding(6px,20px,6px,12px);
+		}
+	}
+}

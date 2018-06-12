@@ -1,0 +1,311 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 4, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#enabled_filters {
+  margin: 0 0 10px 0;
+  background: #eee;
+  padding: 5px;
+}
+
+/* line 9, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#enabled_filters .layered_subtitle {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* line 13, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#enabled_filters ul li {
+  padding: 2px 0;
+}
+
+/* line 14, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#enabled_filters li a {
+  float: right;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  text-indent: -5000px;
+  /*background: url(../../../img/icon/delete.gif) no-repeat 0 0 transparent;*/
+  background: url(../../../img/icon/delete.gif) no-repeat 0 0 transparent;
+  cursor: pointer;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #enabled_filters li a {
+  float: left;
+}
+
+/* line 24, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left .layered_close {
+  float: right;
+  padding-right: 5px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #layered_block_left .layered_close {
+  float: left;
+}
+
+/* line 29, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left span.layered_close a,
+#layered_block_left span.layered_close a {
+  display: block;
+  height: 13px;
+  width: 9px;
+  text-decoration: none;
+  text-indent: -5000px;
+  background: url(../../../img/icon/less.gif) no-repeat 0px 4px;
+}
+
+/* line 37, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left span.closed a {
+  background: url(../../../img/icon/more.gif) no-repeat 0px 4px;
+}
+
+/* line 41, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left .layered_subtitle {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* line 46, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left ul {
+  clear: both;
+  padding: 5px 0;
+}
+
+/* line 50, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left ul li {
+  padding: 2px 0;
+}
+
+/* line 53, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left ul li .checker span {
+  top: 0;
+}
+
+/* line 56, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left ul li label {
+  cursor: pointer;
+  font-weight: normal;
+}
+
+/* line 59, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left ul {
+  padding-left: 0;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #layered_block_left ul {
+  padding-right: 0;
+  padding-left: inherit;
+}
+
+/* line 62, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left ul li {
+  list-style-type: none;
+}
+
+/* line 65, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left div > form > div > div {
+  margin-top: 5px;
+}
+
+/* line 68, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left #enabled_filters, #layered_url_filter_block {
+  font-size: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  border-bottom: 1px dotted #CCC;
+}
+
+/* line 75, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left #enabled_filters ul li {
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 13px;
+}
+
+/* Style moved form the template to the css  */
+/* line 83, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left #enabled_filters ul li:hover {
+  background: inherit;
+  color: inherit;
+}
+
+/* line 87, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left #enabled_filters a {
+  text-decoration: none;
+  color: red;
+}
+
+/* line 93, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left ul li input.checkbox {
+  vertical-align: middle;
+  margin-left: 2px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #layered_block_left ul li input.checkbox {
+  margin-right: 2px;
+  margin-left: inherit;
+}
+
+/* line 97, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left ul li .disabled {
+  color: #666;
+}
+
+/* line 100, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left .color-option {
+  border: 1px solid #666666;
+  height: 16px;
+  margin-left: 0;
+  padding: 0;
+  width: 16px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #layered_block_left .color-option {
+  margin-right: 0;
+  margin-left: inherit;
+}
+
+/* line 107, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left .color-option.disable {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 111, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_block_left .nomargin a {
+  display: inline;
+}
+
+/* line 114, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_form .select {
+  width: 165px;
+}
+
+/* line 117, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_form .color-option {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  float: left;
+  margin: 0 9px 0 0;
+  border: 1px solid #666;
+}
+
+/* line 125, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_form .color-option.on {
+  border: 1px solid red;
+}
+
+/* line 128, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_form input[type=radio] {
+  margin-left: 2px;
+  vertical-align: middle;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #layered_form input[type=radio] {
+  margin-right: 2px;
+  margin-left: inherit;
+}
+
+/* line 132, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_price_range {
+  margin-left: 7px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .layered_price_range {
+  margin-right: 7px;
+  margin-left: inherit;
+}
+
+/* line 135, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_price_range_unit {
+  margin-right: 7px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .layered_price_range_unit {
+  margin-left: 7px;
+  margin-right: inherit;
+}
+
+/* line 138, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_slider_container {
+  margin: 6px 0 6px 7px;
+  width: 91%;
+}
+
+/* line 142, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_slider {
+  margin-top: 5px;
+}
+
+/* line 145, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_input_range_min {
+  width: 30px;
+}
+
+/* line 148, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_input_range_max {
+  width: 40px;
+}
+
+/* line 151, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_list_selected {
+  font-weight: bold;
+}
+
+/* line 154, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_list {
+  display: block;
+  cursor: pointer;
+}
+
+/* line 158, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_list:hover {
+  font-weight: bold;
+}
+
+/* line 161, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.layered_ajax_loader p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* line 165, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.hide-action {
+  text-align: center;
+  text-align: right;
+  display: block;
+  cursor: pointer;
+}
+
+/* line 171, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.hide-action:hover {
+  font-weight: bold;
+}
+
+/* line 174, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+#layered_form div div ul {
+  max-height: 200px;
+  overflow-x: auto;
+}
+
+/* line 178, ../../../sass/modules/blocklayered/blocklayered-15.scss */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  margin-left: -8px;
+}

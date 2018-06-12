@@ -1,0 +1,160 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/********************************************************
+			Scenes Styles
+********************************************************/
+/* line 8, ../sass/scenes.scss */
+#scenes .popover-button span {
+  display: block;
+  font-size: 28px;
+  text-align: center;
+}
+/* line 12, ../sass/scenes.scss */
+#scenes .popover-button span:before {
+  content: "\f0fe";
+  font-family: "FontAwesome";
+  display: block;
+  vertical-align: 5px;
+}
+
+/* line 20, ../sass/scenes.scss */
+.scene_cat .image {
+  margin-bottom: 15px;
+}
+
+/* line 22, ../sass/scenes.scss */
+.thumbs_banner {
+  margin: 10px auto;
+  padding: 0;
+  height: 62px !important;
+  width: 100%;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+/* line 29, ../sass/scenes.scss */
+.thumbs_banner .space-keeper {
+  width: 21px;
+  float: left;
+  display: block;
+  height: 100%;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .thumbs_banner .space-keeper {
+  float: right;
+}
+/* line 34, ../sass/scenes.scss */
+.thumbs_banner .space-keeper a.prev {
+  display: none;
+  width: 21px;
+  text-decoration: none;
+}
+/* line 39, ../sass/scenes.scss */
+.thumbs_banner .space-keeper a.prev:before {
+  font-family: "FontAwesome";
+  content: "\f053";
+  vertical-align: middle;
+  padding-top: 35px;
+  padding-left: 5px;
+}
+/* line 47, ../sass/scenes.scss */
+.thumbs_banner .space-keeper a.next {
+  float: left;
+  display: block;
+  width: 21px;
+  text-decoration: none;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .thumbs_banner .space-keeper a.next {
+  float: right;
+}
+/* line 53, ../sass/scenes.scss */
+.thumbs_banner .space-keeper a.next:before {
+  font-family: "FontAwesome";
+  content: "\f054";
+  vertical-align: middle;
+  padding-top: 35px;
+  padding-left: 5px;
+}
+
+/* line 64, ../sass/scenes.scss */
+#scenes_list {
+  overflow: hidden;
+  float: left;
+  width: 828px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #scenes_list {
+  float: right;
+}
+/* line 68, ../sass/scenes.scss */
+#scenes_list ul {
+  list-style-type: none;
+}
+/* line 71, ../sass/scenes.scss */
+#scenes_list li {
+  float: left;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #scenes_list li {
+  float: right;
+}
+/* line 74, ../sass/scenes.scss */
+#scenes_list a {
+  display: block;
+}
+
+/* line 80, ../sass/scenes.scss */
+#scenes a.popover-button {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+}
+/* line 85, ../sass/scenes.scss */
+#scenes .popover {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border-color: #dddddd;
+}
+/* line 90, ../sass/scenes.scss */
+#scenes .product-image-container,
+#scenes .product-name {
+  margin-bottom: 15px;
+}
+/* line 93, ../sass/scenes.scss */
+#scenes div.description {
+  margin-bottom: 15px;
+}
+/* line 96, ../sass/scenes.scss */
+#scenes .button-container {
+  margin-bottom: 15px;
+}
+/* line 98, ../sass/scenes.scss */
+#scenes .button-container a {
+  text-decoration: none;
+}
+/* line 102, ../sass/scenes.scss */
+#scenes .price {
+  margin-bottom: 10px;
+}
+@media (max-width: 1199px) {
+  /* line 79, ../sass/scenes.scss */
+  #scenes {
+    display: none;
+  }
+}

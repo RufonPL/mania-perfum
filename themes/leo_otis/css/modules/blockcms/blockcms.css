@@ -1,0 +1,29 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@media (min-width: 768px) {
+  /* line 8, ../../../sass/modules/blockcms/blockcms.scss */
+  .sidebar .informations_block_left .block_content {
+    padding: 20px 0 0;
+  }
+}
+/* line 12, ../../../sass/modules/blockcms/blockcms.scss */
+.sidebar .informations_block_left .block_content ul {
+  margin-bottom: 0;
+}
+/* line 14, ../../../sass/modules/blockcms/blockcms.scss */
+.sidebar .informations_block_left .block_content ul li {
+  padding: 5px 0;
+}

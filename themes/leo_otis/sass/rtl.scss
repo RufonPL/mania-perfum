@@ -1,0 +1,83 @@
+@import "compass";
+@import "theme_variables";
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+@import "bootstrap/rtl/grid";
+// Utility classes
+@import "bootstrap/rtl/utilities";
+@import "bootstrap/rtl/responsive-utilities";
+
+/********************************************************
+			Right to Left Styles
+********************************************************/
+
+* {
+	direction: rtl !important;
+}
+#page {
+	text-align: right !important;
+}
+ul, menu, dir {
+    padding: 0;
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px; 
+    -webkit-padding-start: 0px;
+}
+
+
+// paneltool
+
+.panelbutton {
+    -webkit-box-shadow: -3px 1px 2px #888888;
+    box-shadow: -3px 1px 2px #888888;
+ }
+.fancybox-margin {margin-right: 0px!important;}
+
+.editortool .label-customize {
+    background-image: url('#{$image-theme-base-path}label_customize-1.png');
+}
+.editortool .label-customize:hover {
+    background-position: 0 -111px;
+}
+
+.accessories-block ul li{float: right !important;}
+
+@media (min-width: 992px) {
+    div.verticalmenu .navbar-nav > li {   
+        &:hover,&:active,&:focus{
+            .caret:before{
+                @include transform(rotate(90deg));
+            }
+        }
+    }
+}
+.breadcrumb .navigation-pipe:before{
+    @include transform(rotate(180deg));
+}
+
+//category bg
+.category-bg{
+  .children{
+    & > li{
+      & > .cover-img{
+        & > .cat_name{
+          & > a{
+            &:before{
+              @include transform(rotate(180deg));
+            }
+          }
+        }
+      }
+    }
+  } 
+  .view_all{
+    &:after{
+      @include transform(rotate(180deg));
+    }
+  }
+}

@@ -1,0 +1,128 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/*******************************************************
+Product list Styles
+********************************************************/
+@media (min-width: 992px) {
+  /* line 22, ../sass/product_list.scss */
+  .product_list.grid .first-in-line {
+    clear: both;
+  }
+}
+@media (max-width: 991px) and (min-width: 480px) {
+  /* line 27, ../sass/product_list.scss */
+  .product_list.grid .first-item-of-tablet-line, .product_list.grid .first-item-of-mobile-line {
+
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 38, ../sass/product_list.scss */
+  #blockpack ul > li.last-line {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 45, ../sass/product_list.scss */
+  #blockpack ul > li.first-item-of-tablet-line {
+    clear: none;
+  }
+  /* line 48, ../sass/product_list.scss */
+  #blockpack ul > li.first-item-of-mobile-line {
+    clear: left;
+  }
+}
+
+/*******************************************************
+Product list(List) Styles 
+********************************************************/
+/* line 59, ../sass/product_list.scss */
+.product_list {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 60, ../sass/product_list.scss */
+.product_list .nopadding {
+  padding: 0;
+}
+/* line 63, ../sass/product_list.scss */
+.product_list .nomargin {
+  margin: 0;
+}
+/* line 66, ../sass/product_list.scss */
+.product_list.nomargin {
+  margin: 0;
+}
+/* line 70, ../sass/product_list.scss */
+.widget .product_list {
+  border-right: none;
+  border-left: none;
+}
+/* line 73, ../sass/product_list.scss */
+.widget .product_list .product-block {
+  border-bottom: none;
+}
+/* line 76, ../sass/product_list.scss */
+.widget .product_list .row {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 78, ../sass/product_list.scss */
+.widget .product_list .row:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 479px) {
+  /* line 87, ../sass/product_list.scss */
+  .product_list.list > .ajax_block_product .left-block {
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  /* line 92, ../sass/product_list.scss */
+  .product_list.list > .ajax_block_product .product-image-container {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 479px) {
+  /* line 98, ../sass/product_list.scss */
+  .product_list.list > .ajax_block_product .center-block {
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  /* line 86, ../sass/product_list.scss */
+  .product_list.list > .ajax_block_product {
+    text-align: center;
+  }
+}
+/* line 117, ../sass/product_list.scss */
+.product_list.list .product-block .product-desc {
+  display: block;
+}
+
+/*******************************************************
+Product list(Index page) Styles 
+********************************************************/
+/***** IE code *****/
+/* line 129, ../sass/product_list.scss */
+.ie8 .quick-view {
+  background: #fff;
+  border: 1px solid #dddddd;
+}

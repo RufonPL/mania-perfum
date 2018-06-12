@@ -1,0 +1,41 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 6, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+.language-block .popup-title img {
+  margin-top: -3px;
+}
+@media (max-width: 479px) {
+  /* line 6, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+  .language-block .popup-title img {
+    display: none;
+  }
+}
+/* line 14, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+.language-block .popup-content img {
+  margin-top: -3px;
+  margin-right: 8px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .language-block .popup-content img {
+  margin-left: 8px;
+  margin-right: inherit;
+}
+/* line 18, ../../../sass/modules/blocklanguages/blocklanguages.scss */
+.language-block .popup-content .selected {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: 11px;
+}

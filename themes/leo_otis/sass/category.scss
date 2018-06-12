@@ -1,0 +1,77 @@
+@import "compass";
+@import "theme_variables";
+
+
+// cateogry
+.lnk{
+    @include rtl-float-left();
+} 
+.lnk_more{
+  text-decoration: underline;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.page-subheading{
+    font-weight: bold;
+}
+
+#subcategories{
+    margin-bottom: 10px;
+    padding: 15px 0;
+    @include border-radius(4px);
+}
+.cat-desc{
+    margin-bottom: 20px;
+}
+.content_scene_cat_bg .image{
+    overflow: hidden;
+    @include border-radius(5px);
+}
+.subcategories{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    .image{
+        margin: 0px;
+        overflow: hidden;
+        position: relative;
+        img{
+            width: 100%;
+            @include opacity(0.7);
+            @include transition(transform 0.5s ease);
+            @include backface-visibility(hidden);
+        }
+    }
+    .cat-name{
+        background-image: linear-gradient(to bottom,rgba(0,0,0,0.001) 0,rgba(0,0,0,0.6) 100%); 
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        margin: auto;
+        font-weight: bold;
+        text-align: center;
+        overflow: hidden;
+        @include transition(all 0.3s ease 0s);
+        a{
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            color: $white;
+            font-family: $font-family-septenary;
+        }
+    }
+    .cat-desc{
+        margin: 5px 0px;
+        overflow: hidden;
+        height: 35px;
+        @include ellipsis-text(2);    
+    }
+    &:hover{
+        img{
+            @include opacity(1);
+            @include transform(scale(1.1));
+        }
+    }
+}

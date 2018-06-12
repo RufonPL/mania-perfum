@@ -1,0 +1,55 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/**********************************************************
+				Authentication Styles
+**********************************************************/
+/* line 8, ../sass/authentication.scss */
+#account-creation_form .id_state,
+#account-creation_form .dni,
+#account-creation_form .postcode {
+  display: none;
+}
+
+/* line 12, ../sass/authentication.scss */
+#create-account_form {
+  min-height: 297px;
+}
+/* line 14, ../sass/authentication.scss */
+#create-account_form p {
+  margin-bottom: 8px;
+}
+
+/* line 19, ../sass/authentication.scss */
+#login_form {
+  min-height: 297px;
+}
+/* line 22, ../sass/authentication.scss */
+#login_form .form-group.lost_password {
+  margin: 14px 0 15px 0;
+}
+/* line 24, ../sass/authentication.scss */
+#login_form .form-group.lost_password a {
+  text-decoration: underline;
+}
+/* line 26, ../sass/authentication.scss */
+#login_form .form-group.lost_password a:hover {
+  text-decoration: none;
+}
+
+/* line 35, ../sass/authentication.scss */
+#login_form .form-control, #create-account_form .form-control {
+  max-width: 271px;
+}

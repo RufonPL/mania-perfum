@@ -1,0 +1,401 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* lnk on detail product page */
+/* line 5, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_button, #wishlist_button_nopop {
+  font-weight: 500;
+}
+/* line 7, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_button:before, #wishlist_button_nopop:before {
+  content: "\f08a";
+  font: 700 15px/30px "FontAwesome";
+  width: 18px;
+  text-align: center;
+  display: inline-block;
+  height: 28px;
+  margin: 0 6px 0 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #wishlist_button:before, .rtl #wishlist_button_nopop:before {
+  margin: 0 0 0 6px;
+}
+/* line 18, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_button:hover:before, #wishlist_button_nopop:hover:before {
+  color: #2a3e55;
+}
+
+/* wishlist block */
+/* line 24, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list {
+  margin: 0 0 20px 0;
+}
+/* line 26, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl {
+  font-weight: 400;
+}
+/* line 28, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl.products.no-products {
+  font-weight: 700;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid #dddddd;
+}
+/* line 32, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl.products.no-products dt {
+  padding: 0;
+  border-top: none;
+}
+/* line 36, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl.products.no-products dd {
+  display: none;
+}
+/* line 40, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl.products {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 42, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl.products dt {
+  padding: 20px 0 0;
+  border-top: 1px solid #dddddd;
+}
+/* line 46, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl.products dd {
+  padding: 0 0 20px 0;
+}
+/* line 49, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl.products dt.first_item {
+  padding: 0;
+  border-top: none;
+}
+/* line 54, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl dt {
+  position: relative;
+  padding-right: 0;
+}
+/* line 58, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block #wishlist_block_list dl dd {
+  margin: 0 0 0 24px;
+}
+/* line 63, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block .ajax_cart_block_remove_link {
+  font-size: 14px;
+  line-height: 14px;
+  color: #d3d2d2;
+  width: 14px;
+  height: 14px;
+  float: right;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #wishlist_block .ajax_cart_block_remove_link {
+  float: left;
+}
+/* line 70, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block .ajax_cart_block_remove_link:hover {
+  color: #ffd302;
+}
+/* line 74, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block .cart_block_product_name {
+  width: 85%;
+  display: inline-block;
+  font-weight: bold;
+}
+/* line 79, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block .quantity-formated {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 15px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #wishlist_block .quantity-formated {
+  float: right;
+}
+
+/* line 85, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#wishlist_block_list .price {
+  float: right;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #wishlist_block_list .price {
+  float: left;
+}
+
+/* page in my account ************************************************************************* */
+/* line 91, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#mywishlist td.wishlist_delete a {
+  font-size: 15px;
+}
+
+/* wishlistLinkTop */
+/* line 98, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#module-blockwishlist-mywishlist #block-order-detail #hideSendWishlist {
+  display: inline-block;
+}
+
+/* line 102, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#module-blockwishlist-mywishlist .wishlistLinkTop ul.display_list {
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+/* line 105, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#module-blockwishlist-mywishlist .wishlistLinkTop ul.display_list a {
+  display: inline-block;
+  margin: 10px 10px 10px 0px;
+  font-weight: bold;
+}
+
+/* line 112, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#module-blockwishlist-mywishlist .wishlistLinkTop li {
+  float: left;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #module-blockwishlist-mywishlist .wishlistLinkTop li {
+  float: right;
+}
+
+/* line 116, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#module-blockwishlist-mywishlist .wishlistLinkTop #hideSendWishlist {
+  float: right;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #module-blockwishlist-mywishlist .wishlistLinkTop #hideSendWishlist {
+  float: left;
+}
+
+/* line 120, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+#module-blockwishlist-mywishlist .wishlistLinkTop #showBoughtProducts,
+#module-blockwishlist-mywishlist .wishlistLinkTop #hideBoughtProductsInfos {
+  display: none;
+}
+
+/* wlp_bought ****************************************** */
+/* wlp_bought_list */
+/* line 127, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+ul.wlp_bought_list li {
+  margin: 0 0 30px 0;
+  /*> 992px*/
+  /*768px x 991px*/
+}
+/* line 129, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+ul.wlp_bought_list li .product_image {
+  padding: 9px;
+  border: 1px solid #dddddd;
+  margin: 0 0 20px 0;
+  max-width: 270px;
+}
+/* line 135, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+ul.wlp_bought_list li .product-name {
+  margin: 0 0 10px 0;
+  padding: 0 20px 0 0;
+}
+@media (min-width: 480px) {
+  /* line 135, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+  ul.wlp_bought_list li .product-name {
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+}
+/* line 146, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+ul.wlp_bought_list li .product-name small {
+  display: block;
+  font-size: 11px;
+}
+/* line 149, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+ul.wlp_bought_list li .product-name small a {
+  font-size: 11px;
+}
+/* line 154, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+ul.wlp_bought_list li .product_infos {
+  position: relative;
+}
+/* line 157, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+ul.wlp_bought_list li .btn_action .btn {
+  margin: 0 0 10px 0;
+  font-size: 12px;
+  padding: 0 10px;
+  line-height: 35px;
+}
+@media (min-width: 992px) {
+  /* line 165, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+  ul.wlp_bought_list li.first-in-line {
+    clear: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 171, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+  ul.wlp_bought_list li.first-item-of-tablet-line {
+    clear: left;
+  }
+}
+
+/* line 177, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlistLinkTop .submit {
+  margin: 0 0 30px 0;
+}
+
+/* line 181, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+ul.wlp_bought_list li .lnkdel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  font-size: 14px;
+}
+
+/* line 188, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.product-container .wishlist .popover, .product-container .buttons_bottom_block .popover {
+  padding: 0;
+  width: 100px;
+  text-transform: none;
+}
+/* line 192, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.product-container .wishlist .popover .popover-content, .product-container .buttons_bottom_block .popover .popover-content {
+  padding: 0;
+  width: 100px;
+  height: 80px;
+  overflow-y: auto;
+}
+/* line 198, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.product-container .wishlist .popover table, .product-container .buttons_bottom_block .popover table {
+  margin-bottom: 2px;
+}
+/* line 200, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.product-container .wishlist .popover table td:hover, .product-container .buttons_bottom_block .popover table td:hover {
+  color: #ffd302;
+  cursor: pointer;
+}
+
+/* line 208, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+[id=wishlist_button] + .popover,
+.wishlist_change_button + .popover {
+  padding: 0;
+  width: 100px;
+  text-transform: none;
+}
+/* line 212, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+[id=wishlist_button] + .popover .popover-content,
+.wishlist_change_button + .popover .popover-content {
+  padding: 0;
+}
+/* line 215, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+[id=wishlist_button] + .popover table,
+.wishlist_change_button + .popover table {
+  margin-bottom: 2px;
+  border: none;
+}
+/* line 218, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+[id=wishlist_button] + .popover table td:hover,
+.wishlist_change_button + .popover table td:hover {
+  color: #ffd302;
+  cursor: pointer;
+}
+
+/* line 225, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover, .buttons_bottom_block .popover {
+  text-align: center;
+}
+/* line 228, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover.top .arrow, .buttons_bottom_block .popover.top .arrow {
+  left: 50%;
+  margin-left: -11px;
+}
+/* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .wishlist .popover.top .arrow, .rtl .buttons_bottom_block .popover.top .arrow {
+  right: 50%;
+  left: auto;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .wishlist .popover.top .arrow, .rtl .buttons_bottom_block .popover.top .arrow {
+  margin-right: -11px;
+  margin-left: inherit;
+}
+/* line 231, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover.top .arrow:after, .buttons_bottom_block .popover.top .arrow:after {
+  margin-left: -10px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .wishlist .popover.top .arrow:after, .rtl .buttons_bottom_block .popover.top .arrow:after {
+  margin-right: -10px;
+  margin-left: inherit;
+}
+/* line 237, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover.bottom .arrow, .buttons_bottom_block .popover.bottom .arrow {
+  left: 50%;
+  margin-left: -11px;
+}
+/* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .wishlist .popover.bottom .arrow, .rtl .buttons_bottom_block .popover.bottom .arrow {
+  right: 50%;
+  left: auto;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .wishlist .popover.bottom .arrow, .rtl .buttons_bottom_block .popover.bottom .arrow {
+  margin-right: -11px;
+  margin-left: inherit;
+}
+/* line 240, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover.bottom .arrow:after, .buttons_bottom_block .popover.bottom .arrow:after {
+  margin-left: -10px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .wishlist .popover.bottom .arrow:after, .rtl .buttons_bottom_block .popover.bottom .arrow:after {
+  margin-right: -10px;
+  margin-left: inherit;
+}
+/* line 245, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover .popover-title, .buttons_bottom_block .popover .popover-title {
+  display: none;
+}
+/* line 248, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover table, .buttons_bottom_block .popover table {
+  border: none;
+}
+/* line 250, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover-content, .buttons_bottom_block .popover-content {
+  padding: 0;
+  width: 100px;
+}
+/* line 253, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover-content table, .buttons_bottom_block .popover-content table {
+  margin: 0;
+  border: none;
+  text-align: center;
+}
+/* line 258, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover-content table > tbody > tr, .buttons_bottom_block .popover-content table > tbody > tr {
+  border: none;
+}
+/* line 260, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover-content table > tbody > tr > td, .buttons_bottom_block .popover-content table > tbody > tr > td {
+  padding: 5px;
+}
+/* line 264, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.wishlist .popover-content table > tbody > tr:first-child > td, .buttons_bottom_block .popover-content table > tbody > tr:first-child > td {
+  border: none;
+}
+
+/* line 276, ../../../sass/modules/blockwishlist/blockwishlist.scss */
+.buttons_bottom_block .popover .popover-title {
+  display: block;
+  border-bottom: 1px solid #dddddd;
+}

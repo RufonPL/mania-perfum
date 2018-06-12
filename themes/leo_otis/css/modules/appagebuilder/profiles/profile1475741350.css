@@ -1,0 +1,212 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 5, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+#index #columns {
+  padding-bottom: 0;
+}
+
+/* line 9, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+#slideshow {
+  margin-bottom: 30px;
+}
+/* line 11, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+#slideshow .group-slideshow {
+  margin-top: 20px;
+}
+/* line 13, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+#slideshow .group-slideshow .ApSlideShow {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  /* line 20, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-two-banner {
+    margin: 0px -10px 0 -10px;
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-two-banner {
+    margin: 0px -10px 0 -10px;
+  }
+  /* line 23, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-two-banner > [class*="col-"] {
+    padding: 0 10px;
+  }
+}
+/* line 27, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+.box-two-banner .banner {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  /* line 27, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-two-banner .banner {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 36, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+.box-left-right-column-1 {
+  margin-top: 60px;
+}
+@media (max-width: 767px) {
+  /* line 36, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-left-right-column-1 {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 36, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-left-right-column-1 {
+    margin-top: 10px;
+  }
+}
+/* line 45, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+.box-left-right-column-1 .group-right-column .product-sidebar {
+  margin-top: 20px;
+}
+/* line 58, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+.box-left-right-column-1 .group-right-column .product-tabs .product-block .product-meta {
+  padding: 15px 15px 20px;
+}
+
+@media (min-width: 768px) {
+  /* line 64, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-banner {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 64, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-banner {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 71, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-banner .group-banner {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 78, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+.box-left-right-column-2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  /* line 78, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-left-right-column-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 78, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-left-right-column-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 89, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-left-right-column-2 .group-right-column {
+    margin-top: 30px;
+  }
+}
+
+/* line 101, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+.box-categories-carousel {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+@media (max-width: 991px) {
+  /* line 101, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-categories-carousel {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 101, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-categories-carousel {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 115, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+.box-product-list {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  /* line 115, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-product-list {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 115, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-product-list {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 128, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-blog-testimonials {
+    position: relative;
+  }
+  /* line 131, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-blog-testimonials:before {
+    content: '';
+    margin: 0 -1000px;
+    height: 1px;
+    display: block !important;
+    background: #e9e9e9;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+  }
+}
+/* line 143, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+.box-blog-testimonials .group-blogs {
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+  /* line 143, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-blog-testimonials .group-blogs {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 149, ../../../../sass/modules/appagebuilder/profiles/profile1475741350.scss */
+  .box-blog-testimonials .group-testimonials {
+    margin-top: 40px;
+  }
+}

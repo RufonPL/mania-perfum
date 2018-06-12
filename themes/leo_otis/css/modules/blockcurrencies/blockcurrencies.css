@@ -1,0 +1,30 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@media (max-width: 479px) {
+  /* line 6, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+  .currencies-block .popup-title span {
+    display: none;
+  }
+}
+/* line 13, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+.currencies-block .popup-content .selected a {
+  font-weight: bold;
+  font-size: 11px;
+}
+/* line 16, ../../../sass/modules/blockcurrencies/blockcurrencies.scss */
+.currencies-block .popup-content .selected a span {
+  text-decoration: underline;
+}

@@ -1,0 +1,85 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 10, ../../../sass/modules/carriercompare/style.scss */
+#compare_shipping .table thead tr th {
+  padding: 4px 10px 3px 10px;
+}
+/* line 18, ../../../sass/modules/carriercompare/style.scss */
+#compare_shipping .table tbody td {
+  margin: 0;
+}
+/* line 21, ../../../sass/modules/carriercompare/style.scss */
+#compare_shipping .table tbody td.carrier_action {
+  width: 54px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+/* line 27, ../../../sass/modules/carriercompare/style.scss */
+#compare_shipping .table tbody td.carrier_action input {
+  margin: 0;
+}
+
+/* line 37, ../../../sass/modules/carriercompare/style.scss */
+#availableCarriers .table {
+  margin-bottom: 20px;
+}
+
+/* line 41, ../../../sass/modules/carriercompare/style.scss */
+#compare_shipping ul#carriercompare_errors_list {
+  color: red;
+}
+
+/* line 44, ../../../sass/modules/carriercompare/style.scss */
+#compare_shipping_form {
+  padding-bottom: 20px;
+}
+
+/* line 45, ../../../sass/modules/carriercompare/style.scss */
+#compare_shipping ul#carriercompare_errors_list li {
+  margin-left: 30px;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* line 52, ../../../sass/modules/carriercompare/style.scss */
+#SE_AjaxDisplay {
+  text-align: center;
+  display: none;
+}
+
+/* line 58, ../../../sass/modules/carriercompare/style.scss */
+#SE_AjaxDisplay img {
+  width: 15px;
+}
+
+/* line 63, ../../../sass/modules/carriercompare/style.scss */
+.SE_SubmitRefreshCard button {
+  float: left;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .SE_SubmitRefreshCard button {
+  float: right;
+}
+/* line 66, ../../../sass/modules/carriercompare/style.scss */
+.SE_SubmitRefreshCard button#carriercompare_submit {
+  margin-right: 10px;
+}
+
+/* line 71, ../../../sass/modules/carriercompare/style.scss */
+#carriercompare_errors {
+  display: none;
+}

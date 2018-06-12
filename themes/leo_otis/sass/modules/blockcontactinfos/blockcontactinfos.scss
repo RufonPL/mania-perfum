@@ -1,0 +1,36 @@
+@import "compass";
+@import "theme_variables";
+
+#footer #block_contact_infos{
+	margin-top: 20px;
+	.title_block{
+		@media (min-width: 768px) {
+			display: none;
+		}
+	}
+	ul{
+		margin-bottom: 0;
+		li{
+			margin-bottom: 15px;
+			font-size: 13px;
+			@include rtl-padding-left(27px);
+			position: relative;
+			span{
+				font-weight: bold;
+				color: #333333;
+			}
+			i{
+				font-size: 18px;
+				position: absolute;
+				@include rtl-left(0);
+				top: 0px;
+				color: #333333;
+				font-weight: bold;
+			}
+			&.hotline{
+				@include rtl-padding-left(0);
+				margin-bottom: 25px;
+			}
+		}
+	}
+}

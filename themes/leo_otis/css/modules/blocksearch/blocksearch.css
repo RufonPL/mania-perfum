@@ -1,0 +1,74 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 5, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results {
+  background: white;
+  border: 1px solid #dddddd;
+  width: 271px;
+  margin-top: -1px;
+}
+/* line 10, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+/* line 16, ../../../sass/modules/blocksearch/blocksearch.scss */
+.ac_results li.ac_odd {
+  background: white;
+}
+
+/* line 23, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top {
+  position: relative;
+}
+/* line 24, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .fa-search {
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  background: #fcfcfc;
+  padding: 7px;
+  width: 30px;
+  height: 30px;
+}
+/* line 31, ../../../sass/modules/blocksearch/blocksearch.scss */
+#search_block_top .fa-search:hover {
+  cursor: pointer;
+}
+
+/* line 34, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox {
+  width: 260px;
+  z-index: 10;
+}
+/* line 37, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox label {
+  color: #666666;
+}
+/* line 40, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox input.search_query {
+  max-width: 200px;
+  float: left;
+}
+/* line 44, ../../../sass/modules/blocksearch/blocksearch.scss */
+form#searchbox .btn {
+  float: left;
+  background: #ffd302;
+  border-color: #ffd302;
+  margin-left: 5px;
+}

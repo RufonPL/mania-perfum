@@ -1,0 +1,289 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 5, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+#topbar {
+  background: #37a829;
+}
+/* line 7, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+#topbar .container {
+  color: white;
+}
+/* line 10, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+#topbar a {
+  color: white;
+}
+/* line 12, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+#topbar a:hover {
+  color: #e44438;
+}
+@media (max-width: 991px) {
+  /* line 16, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  #topbar .popup-over .popup-content {
+    color: #888888;
+  }
+  /* line 19, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  #topbar .popup-over .popup-content a {
+    color: #888888;
+  }
+  /* line 21, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  #topbar .popup-over .popup-content a:hover {
+    color: #e44438;
+  }
+}
+
+/* line 28, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-top-header {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 31, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-top-header > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 35, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-top-header .left-top-header {
+  -webkit-justify-content: flex-start;
+  /* Safari 6.1+ */
+  justify-content: flex-start;
+}
+/* line 38, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-top-header .right-top-header {
+  -webkit-justify-content: flex-end;
+  /* Safari 6.1+ */
+  justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+  /* line 43, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  /* line 43, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top {
+    margin-bottom: 10px;
+  }
+}
+/* line 51, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-header-top > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 55, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-header-top .group-logo {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  /* line 55, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top .group-logo {
+    -webkit-justify-content: center;
+    /* Safari 6.1+ */
+    justify-content: center;
+  }
+}
+/* line 60, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-header-top .group-logo .logo {
+  display: inline-block;
+  padding: 30px 0 40px;
+}
+@media (min-width: 992px) {
+  /* line 55, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top .group-logo {
+    padding: 0 0 0 15px;
+    width: calc(25% - 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-logo {
+    padding: 0 15px 0 0;
+  }
+  /* line 67, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top .group-logo a {
+    background: white;
+    width: 100%;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+  }
+}
+/* line 75, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-header-top .group-search {
+  -webkit-justify-content: center;
+  /* Safari 6.1+ */
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  /* line 75, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top .group-search {
+    padding: 0 15px 0 0;
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-search {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 75, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top .group-search {
+    display: initial;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+/* line 86, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-header-top .group-cart {
+  -webkit-justify-content: space-between;
+  /* Safari 6.1+ */
+  justify-content: space-between;
+}
+@media (min-width: 992px) {
+  /* line 86, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top .group-cart {
+    padding: 0 15px 0 0;
+    width: calc(25% + 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-cart {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 86, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-top .group-cart {
+    -webkit-justify-content: flex-end;
+    /* Safari 6.1+ */
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 97, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-bottom {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+  }
+}
+/* line 102, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-header-bottom > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 106, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+.box-header-bottom .group-megamenu {
+  min-height: auto;
+}
+@media (min-width: 992px) {
+  /* line 106, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-bottom .group-megamenu {
+    padding: 0 15px 0 0;
+    width: calc(75% + 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-bottom .group-megamenu {
+    padding: 0 0 0 15px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 113, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .box-header-bottom .group-vertical-menu {
+    padding: 0 0 0 15px;
+    width: calc(25% - 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-bottom .group-vertical-menu {
+    padding: 0 15px 0 0;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 123, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .header_user_info .popup-content {
+    background: transparent;
+    display: block;
+    position: static;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    -webkit-animation: none;
+    animation: none;
+    border: none;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 137, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .hotline.hotline-top {
+    margin: 0 20px;
+  }
+
+  /* line 141, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .group-megamenu {
+    position: static !important;
+  }
+
+  /* line 145, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+  .navbar-header {
+    position: absolute;
+    left: 15px;
+    top: -50px;
+  }
+  /* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .navbar-header {
+    right: 15px;
+    left: auto;
+  }
+}
+/* line 151, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+#link_cart .ajax_cart_quantity {
+  background: #e44438;
+}
+
+/* line 157, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+#leo-megamenu .navbar-nav > li:hover > a, #leo-megamenu .navbar-nav > li:active > a, #leo-megamenu .navbar-nav > li:focus > a {
+  background-color: #f3695e;
+}
+/* line 161, ../../../../sass/modules/appagebuilder/positions/headerposition1476880526.scss */
+#leo-megamenu .navbar-nav > li.active > a {
+  background-color: #f3695e;
+}

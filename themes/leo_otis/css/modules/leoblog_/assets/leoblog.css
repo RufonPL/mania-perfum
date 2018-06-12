@@ -1,0 +1,349 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* blog listing */
+/* line 6, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container {
+  background: white;
+  padding: 0 15px 20px;
+}
+/* line 9, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container .title_block {
+  color: #2a3e55;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+/* line 19, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container .category-image img {
+  padding-right: 10px;
+}
+/* line 271, ../../../../sass/mixins/_theme.scss */
+.rtl .blogs-container .category-image img {
+  padding-left: 10px;
+  padding-right: inherit;
+}
+/* line 23, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container .blog-item {
+  margin-bottom: 20px;
+}
+/* line 26, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container .blog-image {
+  margin-bottom: 20px;
+}
+/* line 28, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container .blog-image img {
+  max-width: 100%;
+}
+@media (max-width: 667px) {
+  /* line 28, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+  .blogs-container .blog-image img {
+    width: 100%;
+  }
+}
+/* line 37, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container .blog-info .name {
+  font-family: "Roboto", sans-serif;
+  color: #272727;
+  font-size: 16px;
+  margin-bottom: 20px;
+  min-height: 50px;
+  line-height: 24px;
+}
+/* line 46, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container .blog-shortinfo {
+  margin-bottom: 20px;
+}
+/* line 49, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blogs-container .blog-meta {
+  margin-bottom: 20px;
+}
+
+/* line 54, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.leading-blog .blog-meta {
+  border: 1px solid #dddddd;
+  overflow: hidden;
+  padding: 10px 0;
+}
+/* line 58, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.leading-blog .blog-meta > span {
+  border-right: 1px solid #dddddd;
+  padding: 5px 10px;
+}
+/* line 271, ../../../../sass/mixins/_theme.scss */
+.rtl .leading-blog .blog-meta > span {
+  border-left: 1px solid #dddddd;
+  border-right: inherit;
+}
+
+/* line 64, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-tags, .extra-blogs, .blog-comments, .social-share {
+  padding-bottom: 15px;
+}
+
+/* line 68, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.extra-blogs ul li {
+  padding: 6px 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 73, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-video-code .inner {
+  background: #DDD;
+  padding: 12px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* line 80, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-comment .control-label {
+  text-align: left;
+}
+/* line 260, ../../../../sass/mixins/_theme.scss */
+.rtl .blog-comment .control-label {
+  text-align: right;
+}
+
+/* Blog Detail */
+/* line 85, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-detail {
+  text-align: justify;
+}
+/* line 87, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-detail .blog-title {
+  font-family: "Roboto";
+  color: #272727;
+  font-size: 26px;
+}
+/* line 92, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-detail .blog-meta {
+  margin-bottom: 10px;
+}
+/* line 95, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-detail .blog-image {
+  margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  /* line 98, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+  .blog-detail .blog-tags {
+    clear: both;
+  }
+}
+
+/* categories menu display on left or right sidebar */
+/* line 108, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li {
+  position: relative;
+}
+/* line 110, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li a {
+  display: block;
+  font-size: 13px;
+  line-height: 30px;
+  padding: 3px 0;
+}
+/* line 115, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li a .fa-edit {
+  display: none;
+}
+/* line 119, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li a:hover span {
+  color: #2a3e55;
+}
+/* line 125, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li span.grower {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  font-family: "FontAwesome";
+  font-size: 13px;
+}
+/* line 369, ../../../../sass/mixins/_theme.scss */
+.rtl .blog-menu li span.grower {
+  left: 0;
+  right: auto;
+}
+/* line 134, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li span.grower.OPEN:before, .blog-menu li span.grower.CLOSE:before {
+  content: "\f068";
+  display: block;
+  vertical-align: middle;
+  width: 10px;
+  height: 36px;
+  font-size: 9px;
+  color: #be1e2d;
+  line-height: 36px;
+  text-align: center;
+}
+/* line 145, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li span.grower.CLOSE:before {
+  content: "\f067";
+}
+/* line 151, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li li a {
+  font-weight: normal;
+  color: #777777;
+}
+/* line 154, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-menu li li a:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  line-height: 29px;
+  padding-right: 8px;
+  float: left;
+}
+/* line 271, ../../../../sass/mixins/_theme.scss */
+.rtl .blog-menu li li a:before {
+  padding-left: 8px;
+  padding-right: inherit;
+}
+/* line 260, ../../../../sass/mixins/_theme.scss */
+.rtl .blog-menu li li a:before {
+  float: right;
+}
+
+/* comment */
+/* line 166, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.comment-item {
+  padding: 12px 0;
+}
+/* line 168, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.comment-item img {
+  padding-right: 12px;
+}
+/* line 271, ../../../../sass/mixins/_theme.scss */
+.rtl .comment-item img {
+  padding-left: 12px;
+  padding-right: inherit;
+}
+
+/* line 172, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.comment-wrap {
+  overflow: hidden;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #E5E5E5;
+  padding: 20px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+/* line 179, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.comment-wrap .comment-meta {
+  border-bottom: 1px solid #E5E5E5;
+  font-size: 11px;
+  margin: -20px -20px 10px;
+  padding: 10px 20px;
+}
+/* line 184, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.comment-wrap .comment-meta > span {
+  font-weight: bold;
+}
+/* line 186, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.comment-wrap .comment-meta > span span {
+  font-weight: normal;
+}
+
+@media (max-width: 480px) {
+  /* line 192, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+  .video-code iframe {
+    width: 100%;
+  }
+
+  /* line 197, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+  .comment-wrap .comment-meta {
+    display: inline-block;
+  }
+  /* line 199, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+  .comment-wrap .comment-meta > span {
+    display: inline-block;
+    margin: 5px 0;
+    width: 100%;
+    float: left;
+  }
+  /* line 260, ../../../../sass/mixins/_theme.scss */
+  .rtl .comment-wrap .comment-meta > span {
+    float: right;
+  }
+}
+/* line 209, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-social .social-wrap > div {
+  float: left;
+  margin-right: 10px;
+}
+/* line 260, ../../../../sass/mixins/_theme.scss */
+.rtl .blog-social .social-wrap > div {
+  float: right;
+}
+/* line 271, ../../../../sass/mixins/_theme.scss */
+.rtl .blog-social .social-wrap > div {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+/* line 210, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.blog-social .social-heading {
+  padding-right: 12px;
+}
+/* line 271, ../../../../sass/mixins/_theme.scss */
+.rtl .blog-social .social-heading {
+  padding-left: 12px;
+  padding-right: inherit;
+}
+
+/* line 213, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.comment-link {
+  background: none repeat scroll 0 0 #F4F4F4;
+  display: block;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: -11px -20px -10px 0;
+  border-left: 1px solid #e5e5e5;
+  float: right;
+}
+/* line 284, ../../../../sass/mixins/_theme.scss */
+.rtl .comment-link {
+  margin: -11px 0 -10px -20px;
+}
+/* line 271, ../../../../sass/mixins/_theme.scss */
+.rtl .comment-link {
+  border-right: 1px solid #e5e5e5;
+  border-left: inherit;
+}
+/* line 260, ../../../../sass/mixins/_theme.scss */
+.rtl .comment-link {
+  float: left;
+}
+
+/* line 224, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.ipts-captcha img {
+  float: left;
+  padding: 0 12px 0 0;
+}
+/* line 260, ../../../../sass/mixins/_theme.scss */
+.rtl .ipts-captcha img {
+  float: right;
+}
+/* line 284, ../../../../sass/mixins/_theme.scss */
+.rtl .ipts-captcha img {
+  padding: 0 0 0 12px;
+}
+/* line 228, ../../../../sass/modules/leoblog_/assets/leoblog.scss */
+.ipts-captcha input {
+  width: 100px;
+}

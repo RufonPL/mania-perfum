@@ -1,0 +1,5 @@
+/* line 1, ../../../sass/modules/leomenusidebar/leomenusidebar.scss */
+#leo-verticalmenu .megamenu li {
+  float: none;
+  clear: both;
+}

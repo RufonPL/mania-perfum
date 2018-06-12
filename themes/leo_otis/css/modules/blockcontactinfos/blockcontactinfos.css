@@ -1,0 +1,70 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 4, ../../../sass/modules/blockcontactinfos/blockcontactinfos.scss */
+#footer #block_contact_infos {
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  /* line 6, ../../../sass/modules/blockcontactinfos/blockcontactinfos.scss */
+  #footer #block_contact_infos .title_block {
+    display: none;
+  }
+}
+/* line 11, ../../../sass/modules/blockcontactinfos/blockcontactinfos.scss */
+#footer #block_contact_infos ul {
+  margin-bottom: 0;
+}
+/* line 13, ../../../sass/modules/blockcontactinfos/blockcontactinfos.scss */
+#footer #block_contact_infos ul li {
+  margin-bottom: 15px;
+  font-size: 13px;
+  padding-left: 27px;
+  position: relative;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #footer #block_contact_infos ul li {
+  padding-right: 27px;
+  padding-left: inherit;
+}
+/* line 18, ../../../sass/modules/blockcontactinfos/blockcontactinfos.scss */
+#footer #block_contact_infos ul li span {
+  font-weight: bold;
+  color: #333333;
+}
+/* line 22, ../../../sass/modules/blockcontactinfos/blockcontactinfos.scss */
+#footer #block_contact_infos ul li i {
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  color: #333333;
+  font-weight: bold;
+}
+/* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #footer #block_contact_infos ul li i {
+  right: 0;
+  left: auto;
+}
+/* line 30, ../../../sass/modules/blockcontactinfos/blockcontactinfos.scss */
+#footer #block_contact_infos ul li.hotline {
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #footer #block_contact_infos ul li.hotline {
+  padding-right: 0;
+  padding-left: inherit;
+}

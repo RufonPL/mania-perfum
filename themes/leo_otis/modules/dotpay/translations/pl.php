@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{dotpay}leo_otis>dotpay_472d60adff034c9d36f56a21b6e38799'] = 'dotpay';
+$_MODULE['<{dotpay}leo_otis>dotpay_376569fdeb6c377e22a7e2374ae41ffc'] = 'moduł płatności dotpay';
+$_MODULE['<{dotpay}leo_otis>dotpay_47e487e6e3080d4a8e549054d47b261f'] = 'Czy jesteś pewien że chcesz usnąć moduł płatności dotpay?';
+$_MODULE['<{dotpay}leo_otis>dotpay_f4f70727dc34561dfde1a3c529b6205c'] = 'Ustawienia';
+$_MODULE['<{dotpay}leo_otis>dotpay_4245499695408b974322be6f01b0d17a'] = 'Środowisko testowe';
+$_MODULE['<{dotpay}leo_otis>dotpay_9587f6eb1aa317dfbe27bd897493c42f'] = 'Użyj tego modułu w środowisku testowym dotpay';
+$_MODULE['<{dotpay}leo_otis>dotpay_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Włączony';
+$_MODULE['<{dotpay}leo_otis>dotpay_b9f5c797ebbf55adccdd8539a65a0241'] = 'Wyłączony';
+$_MODULE['<{dotpay}leo_otis>dotpay_29efc1c532964b2a4e4f4cf9dbd36019'] = 'Użyj SSL';
+$_MODULE['<{dotpay}leo_otis>dotpay_79eae524e39d273d6a4e85f822b896ef'] = 'Tryb CHK';
+$_MODULE['<{dotpay}leo_otis>dotpay_3094cbd9a9f3059e9ae5e99645167a4f'] = 'Zabezpieczenie parametrów przed modyfikacją';
+$_MODULE['<{dotpay}leo_otis>dotpay_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{dotpay}leo_otis>dotpay_cdbc895d08b5d92db04174533a8548f7'] = 'PIN';
+$_MODULE['<{dotpay}leo_otis>dotpay_c9cc8cce247e49bae79f15173ce97354'] = 'Zapisz';
+$_MODULE['<{dotpay}leo_otis>configure_0f98b7f230f3c91292f0de4c99e263f2'] = 'Rejestracja';
+$_MODULE['<{dotpay}leo_otis>configure_0c430d6be7fdae0fb493062e16f8963d'] = 'W odpowiedzi na zapotrzebowanie rynku Dotpay od lat świadczy innowacyjne usługi płatności internetowych, dostarczając najszerszą ofertę rozwiązań dla klientów z branży e-commerce. Domeną są transfery pieniężne przesyłane pomiędzy kupującym a sprzedającym, wraz z kompleksowym serwisem, opartym na fachowym doradztwie i stosowaniu dodatkowych zabezpieczeń. W ramach oferty płatności internetowych Dotpay oferuje ponad 50 kanałów płatności, w tym: płatności mobilne, ratalne, gotówkowe, e-portfele, przelewy i karty płatnicze.';
+$_MODULE['<{dotpay}leo_otis>configure_8cc0479846a82293975f8e1c2f4ea626'] = 'Wszystkim nowym klientom, którzy wypełnią formularz i chcą już dzisiaj zacząć przyjmować płatności, oferujemy promocyjne warunki współpracy:';
+$_MODULE['<{dotpay}leo_otis>configure_885003c76467c3d85efb5de6a80cc77d'] = 'prowizji od płatności internetowych (nie mniej niż 0.30 PLN)';
+$_MODULE['<{dotpay}leo_otis>configure_579f8b7cb405f4b9655925f72855bee9'] = 'płatności ratalne';
+$_MODULE['<{dotpay}leo_otis>configure_2aac6ee05f51583d1300b7606c9a6393'] = 'bez prowizji!';
+$_MODULE['<{dotpay}leo_otis>configure_e30639d8feb3c9740af27b82b1b6498d'] = 'opłata aktywacyjna tylko 10 PLN';
+$_MODULE['<{dotpay}leo_otis>configure_b4b3179a64dc9b23a7fb46a86ec23093'] = 'bez dodatkowych opłat';
+$_MODULE['<{dotpay}leo_otis>configure_7ebcb43de1f7cd66f3e01bf22c4ff758'] = 'za zwroty i wypłaty!';
+$_MODULE['<{dotpay}leo_otis>configure_15e80d88e64872dffe151e5ba783270b'] = 'Zarejestruj się!';
+$_MODULE['<{dotpay}leo_otis>configure_254f642527b45bc260048e30704edb39'] = 'Konfiguracja';
+$_MODULE['<{dotpay}leo_otis>configure_98838fad4758f9f7334f20d66b03c55c'] = 'Więcej szczegółów znajdą Państwo w dokumentacji dotpay po zalogowaniu do panelu.';
+$_MODULE['<{dotpay}leo_otis>configure_ab86e74927f7c098c3bdbd631a629285'] = 'Stan konfiguracji';
+$_MODULE['<{dotpay}leo_otis>payment_return_57ca035f385ffdb420caaae9b2765ba5'] = 'Oczekiwanie na potwierdzenie płatności. Proszę czekać na załadowanie strony.';
+$_MODULE['<{dotpay}leo_otis>payment_59101810060e03e0266fac30066965c2'] = 'Trwa przygotowanie Państwa płatności. Proszę czekać na załadowanie strony.';
+$_MODULE['<{dotpay}leo_otis>payment_1f813fac16e31da23bdda501f7cbf5c1'] = 'Zapłać przez dotpay.pl';
+$_MODULE['<{dotpay}leo_otis>payment_ad72d36e367c7682c175f973408a7ca8'] = '(szybkie i bezpieczne płatności)';

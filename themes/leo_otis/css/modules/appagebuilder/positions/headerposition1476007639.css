@@ -1,0 +1,321 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@media (max-width: 991px) {
+  /* line 5, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  #topbar {
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+
+/* line 10, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-top-header {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 13, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-top-header > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 17, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-top-header .left-top-header {
+  -webkit-justify-content: flex-start;
+  /* Safari 6.1+ */
+  justify-content: flex-start;
+}
+/* line 20, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-top-header .right-top-header {
+  -webkit-justify-content: flex-end;
+  /* Safari 6.1+ */
+  justify-content: flex-end;
+}
+@media (min-width: 992px) {
+  /* line 10, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-top-header {
+    position: relative;
+  }
+  /* line 25, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-top-header:before {
+    content: '';
+    height: 1px;
+    width: calc(100% - 25%);
+    display: block !important;
+    background: #e5e5e5;
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+  }
+  /* line 369, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-top-header:before {
+    left: 15px;
+    right: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 40, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .header_user_info .popup-content {
+    display: block;
+    position: static;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    -webkit-animation: none;
+    animation: none;
+    border: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 38, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .header_user_info {
+    padding: 11px 0;
+  }
+  /* line 51, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .header_user_info .popup-title {
+    display: block;
+  }
+  /* line 54, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .header_user_info .links {
+    padding: 10px 15px;
+    min-width: 180px;
+  }
+  /* line 57, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .header_user_info .links li {
+    display: block;
+    padding: 5px 0;
+    margin: 0 0 0 0;
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .header_user_info .links li {
+    margin: 0 0 0 0;
+  }
+  /* line 61, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .header_user_info .links li:last-child {
+    margin: 0;
+  }
+  /* line 64, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .header_user_info .links li:after {
+    display: none;
+  }
+  /* line 67, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .header_user_info .links li .fa {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 75, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  /* line 75, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top {
+    margin-bottom: 10px;
+  }
+}
+/* line 83, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-header-top > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 87, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-header-top .group-logo {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  /* line 87, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-logo {
+    margin-top: -40px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 87, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-logo {
+    -webkit-justify-content: center;
+    /* Safari 6.1+ */
+    justify-content: center;
+  }
+}
+/* line 95, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-header-top .group-logo .logo {
+  display: inline-block;
+  padding: 30px 0 40px;
+}
+@media (min-width: 992px) {
+  /* line 95, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-logo .logo {
+    padding: 50px 0 70px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 87, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-logo {
+    padding: 0 0 0 15px;
+    width: calc(25% - 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-logo {
+    padding: 0 15px 0 0;
+  }
+  /* line 105, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-logo a {
+    width: 100%;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+  }
+}
+/* line 112, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-header-top .group-search {
+  -webkit-justify-content: center;
+  /* Safari 6.1+ */
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  /* line 112, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-search {
+    padding: 0 15px 0 0;
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-search {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 112, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-search {
+    display: initial;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+/* line 123, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-header-top .group-cart {
+  -webkit-justify-content: space-between;
+  /* Safari 6.1+ */
+  justify-content: space-between;
+}
+@media (min-width: 992px) {
+  /* line 123, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-cart {
+    padding: 0 15px 0 0;
+    width: calc(25% + 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-top .group-cart {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 123, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-top .group-cart {
+    -webkit-justify-content: flex-end;
+    /* Safari 6.1+ */
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 134, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-bottom {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-align-items: center;
+    /* Safari 7.0+ */
+    align-items: center;
+  }
+}
+/* line 139, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-header-bottom > [class*="col-"] {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  align-items: center;
+}
+/* line 143, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+.box-header-bottom .group-megamenu {
+  min-height: auto;
+}
+@media (min-width: 992px) {
+  /* line 143, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-bottom .group-megamenu {
+    padding: 0 15px 0 0;
+    width: calc(75% + 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-bottom .group-megamenu {
+    padding: 0 0 0 15px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 150, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .box-header-bottom .group-vertical-menu {
+    padding: 0 0 0 15px;
+    width: calc(25% - 15px);
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-header-bottom .group-vertical-menu {
+    padding: 0 15px 0 0;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 161, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .hotline.hotline-top {
+    margin: 0 20px;
+  }
+
+  /* line 165, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .group-megamenu {
+    position: static !important;
+  }
+
+  /* line 169, ../../../../sass/modules/appagebuilder/positions/headerposition1476007639.scss */
+  .navbar-header {
+    position: absolute;
+    left: 15px;
+    top: -50px;
+  }
+  /* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .navbar-header {
+    right: 15px;
+    left: auto;
+  }
+}

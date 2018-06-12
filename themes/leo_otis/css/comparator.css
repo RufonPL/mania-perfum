@@ -1,0 +1,311 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/********************************************************************
+					Compare Page Styles
+********************************************************************/
+/* line 10, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block {
+  vertical-align: top;
+  padding: 14px 19px 19px;
+  text-align: center;
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  /* line 10, ../sass/comparator.scss */
+  table#product_comparison tbody tr td.product-block {
+    display: table-cell;
+  }
+}
+/* line 17, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block .price-percent-reduction {
+  top: 60px;
+  right: 25px;
+}
+/* line 369, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl table#product_comparison tbody tr td.product-block .price-percent-reduction {
+  left: 25px;
+  right: auto;
+}
+/* line 21, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block .name {
+  margin: 0 0 10px 0;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl table#product_comparison tbody tr td.product-block .name {
+  margin: 0 0 10px 0;
+}
+/* line 24, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block .product-meta {
+  text-align: center;
+}
+/* line 29, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block .right-block .content_price {
+  position: initial;
+}
+/* line 33, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block .product_desc {
+  margin-bottom: 10px;
+}
+/* line 36, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block span.ajax_add_to_cart_button {
+  background: #dddddd;
+}
+/* line 40, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block .button-container .btn {
+  margin-bottom: 5px;
+  white-space: initial;
+}
+/* line 45, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block:hover {
+  border: none;
+}
+/* line 51, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty,
+table#product_comparison tbody tr td.feature-name, table#product_comparison tbody tr.comparison_header {
+  background: transparent;
+}
+@media (max-width: 767px) {
+  /* line 51, ../sass/comparator.scss */
+  table#product_comparison tbody tr td.td_empty,
+  table#product_comparison tbody tr td.feature-name, table#product_comparison tbody tr.comparison_header {
+    width: 100%;
+  }
+}
+/* line 57, ../sass/comparator.scss */
+table#product_comparison tbody tr td.comparison_infos {
+  text-align: center;
+  background: transparent;
+}
+/* line 60, ../sass/comparator.scss */
+table#product_comparison tbody tr td.comparison_infos div.center {
+  margin: 0 auto;
+  width: 80px;
+}
+@media (max-width: 767px) {
+  /* line 66, ../sass/comparator.scss */
+  table#product_comparison tbody tr td.comparison_infos .button-container .btn {
+    margin-bottom: 10px;
+  }
+}
+/* line 72, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty {
+  vertical-align: bottom;
+}
+/* line 74, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty > span {
+  text-transform: uppercase;
+  color: #555454;
+}
+/* line 81, ../sass/comparator.scss */
+table#product_comparison .remove {
+  text-align: right;
+  padding: 0 0 15px 0;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl table#product_comparison .remove {
+  text-align: left;
+}
+/* line 84, ../sass/comparator.scss */
+table#product_comparison .remove a {
+  font-size: 23px;
+  line-height: 23px;
+  color: #c0c0c0;
+}
+/* line 88, ../sass/comparator.scss */
+table#product_comparison .remove a:hover {
+  color: #ffd302;
+}
+/* line 94, ../sass/comparator.scss */
+table#product_comparison .comparison_unit_price {
+  font-size: 17px;
+  font-family: "Roboto";
+  font-style: italic;
+}
+/* line 99, ../sass/comparator.scss */
+table#product_comparison .product-rating {
+  width: 90px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 108, ../sass/comparator.scss */
+.footer_link {
+  margin: 0 0 20px 0;
+}
+
+/* line 112, ../sass/comparator.scss */
+#stOCClose {
+  width: 29px !important;
+  height: 29px !important;
+}
+
+/* line 119, ../sass/comparator.scss */
+.stButton .stFb,
+.stButton .stTwbutton,
+.stButton .stMainServices,
+.stButton .stButton_gradient {
+  height: 22px !important;
+}
+
+/* line 124, ../sass/comparator.scss */
+.share strong {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 129, ../sass/comparator.scss */
+.share > div {
+  margin-bottom: 8px;
+}
+@media (min-width: 1200px) {
+  /* line 123, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -350px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 123, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -260px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 123, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -245px;
+  }
+}
+
+/* line 146, ../sass/comparator.scss */
+.stArrow {
+  display: none !important;
+}
+
+/***** IE code ****/
+/* line 152, ../sass/comparator.scss */
+.ie8 table#product_comparison .product-image-block .product_image img {
+  width: auto;
+}
+
+/**** responsive code ******/
+@media (max-width: 992px) {
+  /* line 160, ../sass/comparator.scss */
+  #columns table#product_comparison tbody tr td.td_empty span {
+    font-size: 14px;
+  }
+  /* line 163, ../sass/comparator.scss */
+  #columns table#product_comparison tbody tr td.product-block {
+    padding: 14px;
+  }
+  /* line 167, ../sass/comparator.scss */
+  #columns table#product_comparison .button.ajax_add_to_cart_button,
+  #columns table#product_comparison .button.lnk_view {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 179, ../sass/comparator.scss */
+  #product_comparison table,
+  #product_comparison thead,
+  #product_comparison tbody,
+  #product_comparison th,
+  #product_comparison td,
+  #product_comparison tr {
+    display: block;
+  }
+
+  /* line 183, ../sass/comparator.scss */
+  #product_comparison thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* line 189, ../sass/comparator.scss */
+  #product_comparison tr {
+    overflow: hidden;
+  }
+  /* line 191, ../sass/comparator.scss */
+  #product_comparison tr:last-child {
+    border-bottom: none;
+  }
+  /* line 193, ../sass/comparator.scss */
+  #product_comparison tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* line 199, ../sass/comparator.scss */
+  #product_comparison td {
+    border: none;
+    position: relative;
+    white-space: normal;
+    float: left;
+    width: 33.33%;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #product_comparison td {
+    float: right;
+  }
+  /* line 205, ../sass/comparator.scss */
+  #product_comparison td.td_empty {
+    width: 100% !important;
+    clear: both;
+  }
+  /* line 209, ../sass/comparator.scss */
+  #product_comparison td:last-child {
+    border-bottom: none;
+  }
+
+  /* line 216, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .feature-name {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+}
+@media (max-width: 480px) {
+  /* line 226, ../sass/comparator.scss */
+  #product_comparison td {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 233, ../sass/comparator.scss */
+  #product_comparison .comparison_feature td {
+    float: left;
+    width: 50%;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #product_comparison .comparison_feature td {
+    float: right;
+  }
+  /* line 237, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .feature-name {
+    width: 100%;
+    clear: both;
+  }
+  /* line 241, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .product-name {
+    width: 50%;
+    float: left;
+    display: block;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #product_comparison .comparison_feature .product-name {
+    float: right;
+  }
+}

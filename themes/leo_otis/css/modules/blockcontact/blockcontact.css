@@ -1,0 +1,89 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 3, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone {
+  float: left;
+  margin: 6px 0;
+  margin: 6px 5px 6px 5px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .shop-phone {
+  float: right;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .shop-phone {
+  margin: 6px 5px 6px 5px;
+}
+@media (max-width: 767px) {
+  /* line 3, ../../../sass/modules/blockcontact/blockcontact.scss */
+  .shop-phone {
+    display: none;
+  }
+}
+/* line 10, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone i {
+  color: #666666;
+}
+
+/* line 14, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact-link {
+  float: left;
+  margin: 6px 5px 6px 5px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #contact-link {
+  float: right;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #contact-link {
+  margin: 6px 5px 6px 5px;
+}
+@media (max-width: 479px) {
+  /* line 14, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact-link {
+    width: 25%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 22, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact_block {
+    margin-bottom: 20px;
+  }
+}
+/* line 26, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block .label {
+  display: none;
+}
+/* line 29, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block .block_content {
+  color: #888888;
+}
+/* line 32, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p {
+  margin-bottom: 4px;
+}
+/* line 35, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p.tel {
+  margin-bottom: 6px;
+}
+/* line 38, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p.tel i {
+  font-size: 25px;
+  vertical-align: -2px;
+  padding-right: 10px;
+}

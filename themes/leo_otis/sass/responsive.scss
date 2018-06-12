@@ -1,0 +1,106 @@
+@import "compass";
+@import "theme_variables";
+
+@media (max-width: 1196px) and (min-width: 992px) {
+	//Theme config live
+	.editortool .label-customize {display: none;}
+} 
+@media (min-width: $screen-lg) { // min 1200px
+
+	//GUEST TRACKING
+	#guestTracking {
+		.form-group {
+      		overflow: hidden;
+	      	i {
+	        	@include rtl-padding-left(10px);
+	      	}
+    	}
+    	.form-control {
+      		@include rtl-float-left ();
+    	}
+    	label {
+      		@include rtl-float-left ();
+      		clear: both;
+     		width: 100%;
+    	}
+	}
+}
+@media (max-width: $screen-md-max) { // max 1199px
+  	//Zoom
+  	.zoomdiv {
+    	display: none !important;
+  	}
+}
+
+@media (max-width: $screen-sm-max) { // max 991px
+	.float-vertical.active{
+		> .block_content{
+			position:relative;		
+		}
+	} 	
+	
+	#leo-verticalmenu .open > .dropdown-menu {
+		max-width: 100%;
+		position: relative;
+		left: auto !important;
+		width: 100% !important; 
+		top: 100%;
+		border: none;
+		@include rtl-float-left();		
+		border-bottom: 1px solid #e5e5e5;		
+	}
+	div.verticalmenu{
+		.dropdown-menu{
+			@include opacity(1);
+		}
+		.navbar-nav{
+			margin: 0;
+		}
+	} 
+	.header_user_info .popup-title{
+	  display: block;
+	}
+	.dropdown-menu > li > a{padding: 3px 0;}
+	.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+		background: transparent;
+	}
+	ul.links li .fa, ul.links li .icon{
+		width: 10px;
+	} 
+}
+
+@media (max-width: $screen-sm-max) { // max 767px
+	//Menu Canvas
+	html {background:none}
+	.navbar-header{
+		border: 1px solid #b1b1b1;
+    	@include border-radius(3px);
+		.navbar-toggle{
+			  display: block;
+			  @include rtl-float-left();
+			  margin: 0;
+			  width: 40px;
+			  padding: 7px 10px;
+		}
+	} 
+	.collapse.navbar-collapse  {
+	  	display: none!important
+	}
+	.navbar-nav {
+		float: none;
+	  > li {
+	  	 // float: none;
+	  }
+	}	
+	//end canvas
+}
+@media (max-width: $screen-xs) { // max 480px
+	#layer_cart .layer_cart_cart .button-container{
+		text-align: center;
+	}
+	#layer_cart .layer_cart_cart .button-container .btn{
+		float: none!important;
+		margin-bottom: 10px;
+	}
+	
+}

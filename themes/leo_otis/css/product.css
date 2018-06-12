@@ -1,0 +1,1488 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* primary_block ***************************************************************************** */
+/* line 6, ../sass/product.scss */
+.product-heading-h5 {
+  color: #999999;
+  font-weight: 200;
+  margin: 3px 0 8px;
+  font-size: 19px;
+  font-family: "Lato", sans serif;
+}
+
+/* line 13, ../sass/product.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* .pb-left-column ***************************************************************************** */
+/* line 20, ../sass/product.scss */
+.pb-left-column {
+  /* miniatures */
+}
+/* line 21, ../sass/product.scss */
+.pb-left-column .p-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* line 26, ../sass/product.scss */
+.pb-left-column #image-block {
+  position: relative;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* line 32, ../sass/product.scss */
+.pb-left-column #image-block img {
+  width: 100%;
+}
+/* line 36, ../sass/product.scss */
+.pb-left-column #image-block #view_full_size {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+/* line 40, ../sass/product.scss */
+.pb-left-column #image-block #view_full_size a {
+  display: inline-block;
+}
+/* line 41, ../sass/product.scss */
+.pb-left-column #image-block #view_full_size .span_link {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  padding: 4px;
+  text-align: center;
+  line-height: 20px;
+}
+/* line 369, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .pb-left-column #image-block #view_full_size .span_link {
+  left: 10px;
+  right: auto;
+}
+/* line 49, ../sass/product.scss */
+.pb-left-column #image-block #view_full_size .span_link:after {
+  font-family: "FontAwesome";
+  color: #c0c0c0;
+  font-size: 20px;
+  line-height: 20px;
+  content: "\f00e";
+  font-weight: normal;
+  margin: 0 0 0 2px;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .pb-left-column #image-block #view_full_size .span_link:after {
+  margin: 0 2px 0 0;
+}
+/* line 58, ../sass/product.scss */
+.pb-left-column #image-block #view_full_size .span_link:hover:after {
+  color: white;
+}
+/* line 65, ../sass/product.scss */
+.pb-left-column #image-block a.jqzoom div div img {
+  width: auto;
+  max-width: 10000px;
+}
+/* line 69, ../sass/product.scss */
+.pb-left-column #image-block a.jqzoom div div .zoomWrapper {
+  border: none;
+}
+/* line 74, ../sass/product.scss */
+.pb-left-column #image-block .zoomPad {
+  z-index: auto!important;
+}
+/* line 79, ../sass/product.scss */
+.pb-left-column #views_block {
+  position: relative;
+}
+
+/* line 83, ../sass/product.scss */
+#thumbs_list {
+  overflow: hidden;
+  margin: auto;
+  width: 394px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 83, ../sass/product.scss */
+  #thumbs_list {
+    width: 293px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 83, ../sass/product.scss */
+  #thumbs_list {
+    width: 194px;
+  }
+}
+/* line 93, ../sass/product.scss */
+#thumbs_list ul#thumbs_list_frame {
+  list-style-type: none;
+  padding-left: 0;
+  overflow: hidden;
+  margin: 0;
+  height: 90px;
+  direction: ltr !important;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #thumbs_list ul#thumbs_list_frame {
+  padding-right: 0;
+  padding-left: inherit;
+}
+/* line 101, ../sass/product.scss */
+#thumbs_list li {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  cursor: pointer;
+  border: 1px solid #f3f3f3;
+  line-height: 0;
+  margin-right: 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #thumbs_list li {
+  margin-left: 8px;
+  margin-right: inherit;
+}
+/* line 111, ../sass/product.scss */
+#thumbs_list li:first-child {
+  margin: 0 10px 0 0;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #thumbs_list li:first-child {
+  margin: 0 0 0 10px;
+}
+/* line 114, ../sass/product.scss */
+#thumbs_list li.last {
+  margin-right: 0;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #thumbs_list li.last {
+  margin-left: 0;
+  margin-right: inherit;
+}
+/* line 117, ../sass/product.scss */
+#thumbs_list li a {
+  display: block;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+/* line 124, ../sass/product.scss */
+#thumbs_list li img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 130, ../sass/product.scss */
+.primary_block {
+  margin-bottom: 70px;
+}
+@media (max-width: 991px) {
+  /* line 130, ../sass/product.scss */
+  .primary_block {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 130, ../sass/product.scss */
+  .primary_block {
+    margin-bottom: 30px;
+  }
+}
+/* line 140, ../sass/product.scss */
+.primary_block .show-right-column.hide-left-column #thumbs_list, .primary_block .hide-right-column.show-left-column #thumbs_list {
+  width: 294px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 140, ../sass/product.scss */
+  .primary_block .show-right-column.hide-left-column #thumbs_list, .primary_block .hide-right-column.show-left-column #thumbs_list {
+    width: 194px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 140, ../sass/product.scss */
+  .primary_block .show-right-column.hide-left-column #thumbs_list, .primary_block .hide-right-column.show-left-column #thumbs_list {
+    width: 82px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 140, ../sass/product.scss */
+  .primary_block .show-right-column.hide-left-column #thumbs_list, .primary_block .hide-right-column.show-left-column #thumbs_list {
+    width: 196px;
+  }
+}
+/* line 153, ../sass/product.scss */
+.primary_block span.view_scroll_spacer {
+  float: left;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  left: -6px;
+  z-index: 1000;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .primary_block span.view_scroll_spacer {
+  float: right;
+}
+/* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .primary_block span.view_scroll_spacer {
+  right: -6px;
+  left: auto;
+}
+/* line 164, ../sass/product.scss */
+.primary_block .show-right-column.hide-left-column span.view_scroll_spacer, .primary_block .hide-right-column.show-left-column span.view_scroll_spacer {
+  width: 27px;
+  padding-left: 2px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 164, ../sass/product.scss */
+  .primary_block .show-right-column.hide-left-column span.view_scroll_spacer, .primary_block .hide-right-column.show-left-column span.view_scroll_spacer {
+    width: 44px;
+    padding-left: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 164, ../sass/product.scss */
+  .primary_block .show-right-column.hide-left-column span.view_scroll_spacer, .primary_block .hide-right-column.show-left-column span.view_scroll_spacer {
+    width: 41px;
+    padding-left: 13px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 164, ../sass/product.scss */
+  .primary_block .show-right-column.hide-left-column span.view_scroll_spacer, .primary_block .hide-right-column.show-left-column span.view_scroll_spacer {
+    width: 45px;
+    padding-left: 14px;
+  }
+}
+
+/* line 183, ../sass/product.scss */
+#view_scroll_left,
+#view_scroll_right {
+  height: 26px;
+  width: 26px;
+  line-height: 26px;
+  font-size: 16px;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: calc(50% - 13px);
+  z-index: 100;
+  color: #999999;
+  background: #f3f3f3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 196, ../sass/product.scss */
+#view_scroll_left:before,
+#view_scroll_right:before {
+  font-family: "FontAwesome";
+}
+/* line 199, ../sass/product.scss */
+#view_scroll_left:hover,
+#view_scroll_right:hover {
+  color: white;
+  background: #2a3e55;
+}
+
+/* line 204, ../sass/product.scss */
+#view_scroll_right {
+  right: 0;
+}
+/* line 206, ../sass/product.scss */
+#view_scroll_right:before {
+  content: "\f105";
+}
+
+/* line 210, ../sass/product.scss */
+#view_scroll_left {
+  left: 0;
+}
+/* line 212, ../sass/product.scss */
+#view_scroll_left:before {
+  content: "\f104";
+  padding-right: 2px;
+}
+
+/* line 217, ../sass/product.scss */
+.resetimg {
+  padding: 10px 0 0;
+}
+/* line 219, ../sass/product.scss */
+.resetimg #resetImages i {
+  margin-right: 6px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .resetimg #resetImages i {
+  margin-left: 6px;
+  margin-right: inherit;
+}
+
+/* link list */
+/* line 225, ../sass/product.scss */
+#usefull_link_block {
+  list-style-type: none;
+}
+/* line 227, ../sass/product.scss */
+#usefull_link_block li {
+  margin: 0 0 8px 0;
+}
+/* line 229, ../sass/product.scss */
+#usefull_link_block li:first-child {
+  margin: 0 0 8px 0;
+  border: none;
+  padding: 0;
+}
+/* line 234, ../sass/product.scss */
+#usefull_link_block li a {
+  position: relative;
+  padding-left: 25px;
+  line-height: 22px;
+  display: inline-block;
+  font-weight: 500;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #usefull_link_block li a {
+  padding-right: 25px;
+  padding-left: inherit;
+}
+/* line 241, ../sass/product.scss */
+#usefull_link_block li a:before {
+  font-family: "FontAwesome";
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  left: 0;
+  font-weight: normal;
+}
+/* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #usefull_link_block li a:before {
+  right: 0;
+  left: auto;
+}
+/* line 250, ../sass/product.scss */
+#usefull_link_block li a:hover:before {
+  color: #2a3e55;
+}
+/* line 254, ../sass/product.scss */
+#usefull_link_block li.print a:before {
+  content: "\f02f";
+}
+/* line 259, ../sass/product.scss */
+#usefull_link_block li.sendtofriend a:before {
+  content: "\f003";
+}
+/* line 263, ../sass/product.scss */
+#usefull_link_block li#left_share_fb {
+  clear: both;
+  float: none;
+}
+/* line 266, ../sass/product.scss */
+#usefull_link_block li#left_share_fb a {
+  padding-left: 18px;
+}
+/* line 269, ../sass/product.scss */
+#usefull_link_block li#left_share_fb a:before {
+  content: "\f09a";
+}
+/* line 276, ../sass/product.scss */
+#usefull_link_block li#favoriteproducts_block_extra_remove, #usefull_link_block li#favoriteproducts_block_extra_add, #usefull_link_block li#favoriteproducts_block_extra_removed, #usefull_link_block li#favoriteproducts_block_extra_added {
+  cursor: pointer;
+  clear: both;
+  float: none;
+  margin: 0 0 8px 0;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+/* line 284, ../sass/product.scss */
+#usefull_link_block li#favoriteproducts_block_extra_remove:before, #usefull_link_block li#favoriteproducts_block_extra_add:before, #usefull_link_block li#favoriteproducts_block_extra_removed:before, #usefull_link_block li#favoriteproducts_block_extra_added:before {
+  font-family: "FontAwesome";
+  font-size: 19px;
+  line-height: 24px;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-weight: normal;
+  content: "\f08a";
+}
+/* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #usefull_link_block li#favoriteproducts_block_extra_remove:before, .rtl #usefull_link_block li#favoriteproducts_block_extra_add:before, .rtl #usefull_link_block li#favoriteproducts_block_extra_removed:before, .rtl #usefull_link_block li#favoriteproducts_block_extra_added:before {
+  right: 0;
+  left: auto;
+}
+/* line 297, ../sass/product.scss */
+#usefull_link_block li#favoriteproducts_block_extra_removed:before {
+  content: "\f004";
+}
+
+/* pb-left-column ****************************************************************************** */
+/* line 305, ../sass/product.scss */
+.pb-center-column {
+  /* form */
+}
+/* line 306, ../sass/product.scss */
+.pb-center-column h1 {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #444444;
+}
+/* line 313, ../sass/product.scss */
+.pb-center-column p {
+  margin-bottom: 10px;
+}
+/* line 316, ../sass/product.scss */
+.pb-center-column #product_reference {
+  margin-bottom: 6px;
+}
+/* line 319, ../sass/product.scss */
+.pb-center-column #short_description_block {
+  font-size: 14px;
+}
+/* line 323, ../sass/product.scss */
+.pb-center-column #buy_block {
+  margin-top: 10px;
+}
+/* line 325, ../sass/product.scss */
+.pb-center-column #buy_block label {
+  display: inline-block;
+  width: 125px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: right;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .pb-center-column #buy_block label {
+  text-align: left;
+}
+/* line 333, ../sass/product.scss */
+.pb-center-column #buy_block p.price {
+  padding: 0;
+}
+/* line 338, ../sass/product.scss */
+.pb-center-column #color_picker p {
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
+/* line 343, ../sass/product.scss */
+#product p#loyalty {
+  padding: 17px 0 15px 35px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin: 10px 0 -5px;
+  position: relative;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #product p#loyalty {
+  padding: 17px 35px 15px 0;
+}
+/* line 349, ../sass/product.scss */
+#product p#loyalty:before {
+  content: "\f024";
+  font-family: "FontAwesome";
+  color: #cfcccc;
+  font-size: 26px;
+  line-height: 28px;
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+/* line 362, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #product p#loyalty:before {
+  right: 0;
+  left: auto;
+}
+
+/* line 362, ../sass/product.scss */
+#attributes .box-select {
+  background: transparent;
+  border: 1px solid #d7d7d7;
+}
+/* line 365, ../sass/product.scss */
+#attributes .box-select:after {
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #d7d7d7;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #747474;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #attributes .box-select:after {
+  border-width: 0 1px 0 0;
+}
+/* line 376, ../sass/product.scss */
+#attributes .box-select select {
+  font-size: 13px;
+  line-height: 40px;
+  height: 40px;
+  color: #333333;
+  font-weight: normal;
+  padding: 0 40px 0 15px;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #attributes .box-select select {
+  padding: 0 15px 0 40px;
+}
+/* line 385, ../sass/product.scss */
+#attributes fieldset {
+  margin-bottom: 28px;
+}
+/* line 387, ../sass/product.scss */
+#attributes fieldset label {
+  vertical-align: top;
+  display: inline-block;
+  min-width: 100px;
+  margin-bottom: 0;
+  line-height: 40px;
+  font-weight: bold;
+  color: #222222;
+}
+/* line 397, ../sass/product.scss */
+#attributes .attribute_list {
+  display: inline-block;
+}
+/* line 399, ../sass/product.scss */
+#attributes .attribute_list .form-control {
+  max-width: 230px;
+}
+/* line 401, ../sass/product.scss */
+#attributes .attribute_list .form-control option {
+  color: #666666;
+}
+/* line 405, ../sass/product.scss */
+#attributes .attribute_list ul {
+  clear: both;
+}
+/* line 407, ../sass/product.scss */
+#attributes .attribute_list ul li {
+  float: left;
+  margin-right: 10px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #attributes .attribute_list ul li {
+  float: right;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #attributes .attribute_list ul li {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+/* line 412, ../sass/product.scss */
+#attributes .attribute_list input.attribute_radio {
+  float: left;
+  margin-left: 3px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #attributes .attribute_list input.attribute_radio {
+  float: right;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #attributes .attribute_list input.attribute_radio {
+  margin-right: 3px;
+  margin-left: inherit;
+}
+/* line 418, ../sass/product.scss */
+#attributes .attribute_list div.radio,
+#attributes .attribute_list div.radio span,
+#attributes .attribute_list div.radio input {
+  float: none;
+  display: inline-block;
+}
+/* line 422, ../sass/product.scss */
+#attributes .attribute_list #color_to_pick_list {
+  list-style-type: none;
+  margin: 5px 0;
+}
+/* line 425, ../sass/product.scss */
+#attributes .attribute_list #color_to_pick_list li {
+  float: left;
+  margin: 0 3px 3px 0;
+  padding: 1px;
+  border: 1px solid #dddddd;
+  clear: none;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #attributes .attribute_list #color_to_pick_list li {
+  float: right;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #attributes .attribute_list #color_to_pick_list li {
+  margin: 0 0 3px 3px;
+}
+/* line 431, ../sass/product.scss */
+#attributes .attribute_list #color_to_pick_list li a.color_pick {
+  display: block;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+/* line 437, ../sass/product.scss */
+#attributes .attribute_list #color_to_pick_list li.selected {
+  border: 1px solid #4d4d4d;
+}
+
+/* line 444, ../sass/product.scss */
+.box-cart-bottom {
+  padding: 0;
+}
+/* line 446, ../sass/product.scss */
+.box-cart-bottom div:first-child {
+  float: left;
+  margin-right: 5px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .box-cart-bottom div:first-child {
+  float: right;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .box-cart-bottom div:first-child {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+
+/* table_data_sheet */
+/* line 453, ../sass/product.scss */
+.table-data-sheet {
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+  margin: 0 0 20px;
+}
+/* line 458, ../sass/product.scss */
+.table-data-sheet tr {
+  border-top: 1px solid #dddddd;
+}
+/* line 460, ../sass/product.scss */
+.table-data-sheet tr.even {
+  background: #f9f9f9;
+}
+/* line 463, ../sass/product.scss */
+.table-data-sheet tr td {
+  padding: 10px 20px 11px;
+}
+/* line 465, ../sass/product.scss */
+.table-data-sheet tr td:first-child {
+  border-right: 1px solid #dddddd;
+  width: 30%;
+  font-weight: 500;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .table-data-sheet tr td:first-child {
+  border-left: 1px solid #dddddd;
+  border-right: inherit;
+}
+
+/* table product-discounts */
+/* line 476, ../sass/product.scss */
+table.table-product-discounts {
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  width: 50%;
+  margin: 0 0 20px;
+}
+@media (max-width: 767px) {
+  /* line 476, ../sass/product.scss */
+  table.table-product-discounts {
+    width: 100%;
+  }
+}
+/* line 486, ../sass/product.scss */
+table.table-product-discounts tr th {
+  background: transparent;
+  font-weight: 700;
+  border: none;
+  font-weight: 700;
+}
+/* line 493, ../sass/product.scss */
+table.table-product-discounts tr td,
+table.table-product-discounts tr th {
+  border-left: 1px solid #dddddd;
+  width: 33%;
+  padding: 10px 20px 11px;
+  border-top: 1px solid #dddddd;
+  border-right: none;
+  text-shadow: none;
+  text-transform: none;
+  font-weight: 13px;
+  line-height: 18px;
+  border-bottom: none;
+}
+
+/* accessories  */
+/* line 509, ../sass/product.scss */
+.accessories-block .block_description {
+  display: none;
+}
+/* line 512, ../sass/product.scss */
+.accessories-block .exclusive span {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 2px 8px 3px;
+  text-decoration: none;
+}
+/* line 518, ../sass/product.scss */
+.accessories-block .exclusive span:focus, .accessories-block .exclusive span:active {
+  text-decoration: none;
+}
+/* line 522, ../sass/product.scss */
+.accessories-block .page-subheading {
+  margin-bottom: 0;
+}
+
+/* quantity_wanted */
+/* line 526, ../sass/product.scss */
+#quantity_wanted_p {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+}
+/* line 530, ../sass/product.scss */
+#quantity_wanted_p .button-minus {
+  bottom: 0;
+}
+/* line 533, ../sass/product.scss */
+#quantity_wanted_p .button-plus {
+  top: 0;
+  border-bottom: 1px solid transparent !important;
+}
+/* line 537, ../sass/product.scss */
+#quantity_wanted_p input {
+  width: 90px;
+  height: 40px;
+  border-color: #bdc2c9;
+  border-style: solid;
+  border-width: 1px 0px 1px 1px;
+  float: left;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  appearance: textfield;
+  -moz-appearance: textfield;
+  -ms-appearance: textfield;
+  -o-appearance: textfield;
+  -webkit-appearance: textfield;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: "Lato", sans serif;
+  color: #696969;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #quantity_wanted_p input {
+  border-width: 1px 1px 1px 0px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #quantity_wanted_p input {
+  float: right;
+}
+/* line 551, ../sass/product.scss */
+#quantity_wanted_p input::-webkit-outer-spin-button, #quantity_wanted_p input::-webkit-inner-spin-button {
+  appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 555, ../sass/product.scss */
+#quantity_wanted_p input:active, #quantity_wanted_p input:hover, #quantity_wanted_p input:focus {
+  outline: 0;
+}
+/* line 559, ../sass/product.scss */
+#quantity_wanted_p .btn {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid #bdc2c9;
+  color: #747474;
+  font-size: 13.68px;
+  right: -40px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 369, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #quantity_wanted_p .btn {
+  left: -40px;
+  right: auto;
+}
+/* line 570, ../sass/product.scss */
+#quantity_wanted_p .btn:active, #quantity_wanted_p .btn:hover, #quantity_wanted_p .btn:focus {
+  background: #f7f7f7;
+  color: black;
+}
+/* line 574, ../sass/product.scss */
+#quantity_wanted_p .btn.button-minus {
+  border-top: none;
+}
+/* line 577, ../sass/product.scss */
+#quantity_wanted_p .btn.button-plus {
+  border-bottom: none;
+}
+/* line 581, ../sass/product.scss */
+#quantity_wanted_p label {
+  float: left;
+  display: inline-block;
+  margin-bottom: 0px;
+  line-height: 40px;
+  min-width: 100px;
+  color: #222222;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #quantity_wanted_p label {
+  float: right;
+}
+
+/* availability_statut */
+/* line 592, ../sass/product.scss */
+#availability_statut span#availability_label,
+#availability_date_label {
+  display: inline-block;
+  width: 125px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: right;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #availability_statut span#availability_label, .rtl
+#availability_date_label {
+  text-align: left;
+}
+
+/* line 599, ../sass/product.scss */
+#quantityAvailable {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 605, ../sass/product.scss */
+#availability_value,
+#last_quantities {
+  color: white;
+  line-height: 18px;
+  display: inline-block;
+  margin-left: 5px;
+  white-space: initial;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #availability_value, .rtl
+#last_quantities {
+  margin-right: 5px;
+  margin-left: inherit;
+}
+
+/* line 612, ../sass/product.scss */
+#last_quantities {
+  background: #6087d2;
+  padding: 4px 8px 3px;
+  position: relative;
+  top: 1px;
+}
+
+/* line 619, ../sass/product.scss */
+#availability_statut,
+#pQuantityAvailable {
+  display: inline-block;
+}
+
+/* line 622, ../sass/product.scss */
+#pQuantityAvailable span {
+  font-weight: 500;
+}
+
+/* line 626, ../sass/product.scss */
+#availability_statut #availability_value.warning_inline {
+  margin: 0;
+}
+
+/* box-security */
+/* prices */
+/* line 632, ../sass/product.scss */
+.content_prices {
+  padding: 0 0 5px 0;
+}
+
+/* line 635, ../sass/product.scss */
+.discount {
+  display: none;
+}
+
+/* line 639, ../sass/product.scss */
+.price p {
+  margin-right: 5px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .price p {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+
+/* line 643, ../sass/product.scss */
+.our_price_display {
+  font-size: 24px;
+  display: inline-block;
+  color: #ffcc33;
+  font-weight: bold;
+}
+
+/* line 649, ../sass/product.scss */
+#old_price, .old-price {
+  font-size: 18px;
+  text-decoration: line-through;
+  display: inline-block;
+  line-height: 23px;
+  color: #999999;
+}
+
+/* line 657, ../sass/product.scss */
+#reduction_percent,
+#reduction_amount {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 1px 3px;
+  font-size: 14px;
+  line-height: 23px;
+  color: white;
+  background: #f13340;
+  border: 1px solid #d02a2c;
+  margin-top: 5px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #reduction_percent, .rtl
+#reduction_amount {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+/* line 667, ../sass/product.scss */
+#reduction_percent span,
+#reduction_amount span {
+  display: block;
+}
+
+/* line 671, ../sass/product.scss */
+.product-boxinfo {
+  padding-left: 15px;
+  margin: 15px 0 20px 15px;
+  border-left: #cccccc;
+  border-style: none none none solid;
+  border-width: 0 0 0 2px;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .product-boxinfo {
+  padding-right: 15px;
+  padding-left: inherit;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .product-boxinfo {
+  margin: 15px 15px 20px 0;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .product-boxinfo {
+  border-right: #cccccc;
+  border-left: inherit;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .product-boxinfo {
+  border-style: none solid none none;
+}
+/* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .product-boxinfo {
+  border-width: 0 2px 0 0;
+}
+/* line 677, ../sass/product.scss */
+.product-boxinfo p {
+  margin-bottom: 6px;
+}
+/* line 679, ../sass/product.scss */
+.product-boxinfo p:last-child {
+  margin-bottom: 0;
+}
+
+/* online_only */
+/* line 685, ../sass/product.scss */
+.pb-center-column p.online_only {
+  font-weight: 700;
+  font-size: 13px;
+  color: #f13340;
+  text-align: left;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .pb-center-column p.online_only {
+  text-align: right;
+}
+
+/* line 692, ../sass/product.scss */
+.buttons_bottom_block {
+  float: left;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .buttons_bottom_block {
+  float: right;
+}
+
+/* SEND TO FRIEND (pop-in) ##################################################################### */
+/* line 698, ../sass/product.scss */
+#send_friend_form {
+  width: 555px;
+  overflow: hidden;
+}
+/* line 702, ../sass/product.scss */
+#send_friend_form .product img {
+  margin: 0 0 10px 0;
+  border: 1px solid #dddddd;
+}
+/* line 706, ../sass/product.scss */
+#send_friend_form .product p {
+  padding: 0;
+}
+/* line 709, ../sass/product.scss */
+#send_friend_form .product p .product_name {
+  font-size: 12px;
+  color: #000;
+}
+/* line 715, ../sass/product.scss */
+#send_friend_form .form_container {
+  padding: 10px 15px;
+  border: 1px solid #dddddd;
+}
+/* line 719, ../sass/product.scss */
+#send_friend_form .form_container p.intro_form {
+  padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 13px;
+}
+/* line 725, ../sass/product.scss */
+#send_friend_form .form_container p.txt_required {
+  padding-bottom: 0;
+  color: #666;
+}
+/* line 730, ../sass/product.scss */
+#send_friend_form .form_container .text {
+  padding-bottom: 10px;
+}
+/* line 732, ../sass/product.scss */
+#send_friend_form .form_container .text label {
+  display: block;
+  padding: 0;
+  width: 100%;
+  font-size: 12px;
+}
+/* line 740, ../sass/product.scss */
+#send_friend_form .submit {
+  margin-top: 20px;
+  padding-bottom: 0;
+  text-align: right;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #send_friend_form .submit {
+  text-align: left;
+}
+
+/* PERSONNALISATION ##################################################################### */
+/* line 749, ../sass/product.scss */
+p.infoCustomizable {
+  margin-bottom: 30px;
+}
+
+/* line 754, ../sass/product.scss */
+ul#uploadable_files,
+ul#text_fields {
+  list-style-type: none;
+}
+
+/* line 759, ../sass/product.scss */
+.customizableProductsFile,
+.customizableProductsText {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 765, ../sass/product.scss */
+.customizationUploadLine {
+  padding-bottom: 10px;
+}
+/* line 767, ../sass/product.scss */
+.customizationUploadLine label {
+  display: block;
+  vertical-align: top;
+}
+/* line 771, ../sass/product.scss */
+.customizationUploadLine textarea {
+  width: 50%;
+  border: 1px solid #dddddd;
+  color: #666666;
+}
+
+/* line 777, ../sass/product.scss */
+.customizationUploadBrowse img + a {
+  position: relative;
+  top: -51px;
+}
+
+/* line 782, ../sass/product.scss */
+#customizedDatas {
+  float: right;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl #customizedDatas {
+  float: left;
+}
+
+/* line 788, ../sass/product.scss */
+.accessories_block div ul li a {
+  display: inline-block;
+}
+/* line 792, ../sass/product.scss */
+.accessories_block div ul li.s_title_block a, .accessories_block div ul li.s_title_block span {
+  font-weight: 700;
+}
+
+/***** IE code ****/
+/* line 804, ../sass/product.scss */
+.ie8 .pb-left-column #image-block #view_full_size .span_link {
+  background: #fff;
+  border: 1px solid #dddddd;
+}
+/* line 811, ../sass/product.scss */
+.ie8 .box-security {
+  filter: none;
+}
+
+/* line 815, ../sass/product.scss */
+.socialsharing_product button {
+  border: 1px solid #dddddd;
+}
+
+/******************************************************************
+Quick View Styles
+******************************************************************/
+/* line 821, ../sass/product.scss */
+.addsharethisinner .stButton .stArrow {
+  display: none !important;
+}
+
+/* line 826, ../sass/product.scss */
+#product.content_only div.primary_block {
+  margin-bottom: 0;
+  padding: 10px;
+}
+@media (max-width: 991px) {
+  /* line 826, ../sass/product.scss */
+  #product.content_only div.primary_block {
+    margin-right: 0;
+  }
+}
+/* line 834, ../sass/product.scss */
+#product.content_only #leo-paneltool {
+  display: none !important;
+}
+
+@media (max-width: 1050px) {
+  /* line 843, ../sass/product.scss */
+  #product.content_only div.primary_block div.pb-left-column, #product.content_only section.primary_block div.pb-left-column {
+    width: 100%;
+    padding-right: 15px;
+  }
+  /* line 846, ../sass/product.scss */
+  #product.content_only div.primary_block div.pb-left-column #image-block, #product.content_only div.primary_block div.pb-left-column #views_block, #product.content_only section.primary_block div.pb-left-column #image-block, #product.content_only section.primary_block div.pb-left-column #views_block {
+    max-width: 470px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 853, ../sass/product.scss */
+  #product.content_only div.primary_block div.pb-center-column, #product.content_only section.primary_block div.pb-center-column {
+    width: 50%;
+    float: left;
+    padding-left: 35px;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #product.content_only div.primary_block div.pb-center-column, .rtl #product.content_only section.primary_block div.pb-center-column {
+    float: right;
+  }
+  /* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #product.content_only div.primary_block div.pb-center-column, .rtl #product.content_only section.primary_block div.pb-center-column {
+    padding-right: 35px;
+    padding-left: inherit;
+  }
+  /* line 858, ../sass/product.scss */
+  #product.content_only div.primary_block div.pb-right-column, #product.content_only section.primary_block div.pb-right-column {
+    width: 50%;
+    float: left;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #product.content_only div.primary_block div.pb-right-column, .rtl #product.content_only section.primary_block div.pb-right-column {
+    float: right;
+  }
+}
+/* line 868, ../sass/product.scss */
+.page-product-heading {
+  padding-top: 70px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 0;
+}
+@media (max-width: 991px) {
+  /* line 868, ../sass/product.scss */
+  .page-product-heading {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 868, ../sass/product.scss */
+  .page-product-heading {
+    padding-top: 30px;
+  }
+}
+/* line 878, ../sass/product.scss */
+.page-product-heading > li {
+  float: none;
+  margin: 0;
+  display: inline-block;
+}
+@media (max-width: 479px) {
+  /* line 878, ../sass/product.scss */
+  .page-product-heading > li {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* line 886, ../sass/product.scss */
+.page-product-heading > li > a {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  position: relative;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 896, ../sass/product.scss */
+.page-product-heading > li > a:active, .page-product-heading > li > a:focus, .page-product-heading > li > a:hover {
+  background: #eeeeee;
+  color: #666666;
+}
+/* line 902, ../sass/product.scss */
+.page-product-heading > li.active a {
+  border: none;
+  color: black;
+  background: #eeeeee;
+}
+/* line 906, ../sass/product.scss */
+.page-product-heading > li.active a:hover, .page-product-heading > li.active a:active, .page-product-heading > li.active a:focus {
+  border: none;
+  color: black;
+  background: #eeeeee;
+}
+
+/* line 915, ../sass/product.scss */
+.tab-content {
+  padding: 25px 0;
+  border-top-color: transparent;
+}
+
+/* pb-right-column ****************************************************************************** */
+/* line 926, ../sass/product.scss */
+.pb-right-column .product_attributes {
+  border-top: 1px solid #ebebeb;
+  padding-top: 25px;
+  margin-top: 15px;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+}
+/* line 935, ../sass/product.scss */
+.pb-right-column #add_to_cart .btn {
+  color: white;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  padding: 0;
+  border: none;
+  text-align: center;
+  background: #2a3e55;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 947, ../sass/product.scss */
+.pb-right-column #add_to_cart .btn span {
+  display: none;
+}
+/* line 950, ../sass/product.scss */
+.pb-right-column #add_to_cart .btn .fa {
+  font-size: 13px;
+}
+/* line 953, ../sass/product.scss */
+.pb-right-column #add_to_cart .btn:hover, .pb-right-column #add_to_cart .btn:active, .pb-right-column #add_to_cart .btn:focus {
+  color: white;
+}
+/* line 960, ../sass/product.scss */
+.pb-right-column #wishlist_button,
+.pb-right-column #wishlist_button_nopop {
+  float: left;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  font-size: 13px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background: rgba(230, 230, 230, 0.8);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: none;
+  color: white;
+}
+/* line 961, ../sass/product.scss */
+.pb-right-column #wishlist_button:before,
+.pb-right-column #wishlist_button_nopop:before {
+  display: none;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .pb-right-column #wishlist_button, .rtl
+.pb-right-column #wishlist_button_nopop {
+  float: right;
+}
+/* line 977, ../sass/product.scss */
+.pb-right-column #wishlist_button span,
+.pb-right-column #wishlist_button_nopop span {
+  display: none;
+}
+/* line 980, ../sass/product.scss */
+.pb-right-column #wishlist_button:hover, .pb-right-column #wishlist_button:active, .pb-right-column #wishlist_button:focus,
+.pb-right-column #wishlist_button_nopop:hover,
+.pb-right-column #wishlist_button_nopop:active,
+.pb-right-column #wishlist_button_nopop:focus {
+  background: #2a3e55;
+  color: white;
+}
+/* line 985, ../sass/product.scss */
+.pb-right-column #add_to_compare {
+  float: left;
+  margin-right: 5px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .pb-right-column #add_to_compare {
+  float: right;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .pb-right-column #add_to_compare {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+/* line 989, ../sass/product.scss */
+.pb-right-column #add_to_compare .add_to_compare {
+  float: left;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  font-size: 13px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #e6e6e6;
+  background-color: rgba(230, 230, 230, 0.8);
+  zoom: 1;
+  background-color: transparent\9;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: white;
+}
+/* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .pb-right-column #add_to_compare .add_to_compare {
+  float: right;
+}
+/* line 1002, ../sass/product.scss */
+.pb-right-column #add_to_compare .add_to_compare span {
+  display: none;
+}
+/* line 1005, ../sass/product.scss */
+.pb-right-column #add_to_compare .add_to_compare:hover, .pb-right-column #add_to_compare .add_to_compare:active, .pb-right-column #add_to_compare .add_to_compare:focus {
+  background: #2a3e55;
+  color: white;
+}
+/* line 1011, ../sass/product.scss */
+.pb-right-column #product_payment_logos {
+  clear: both;
+  padding-top: 20px;
+}

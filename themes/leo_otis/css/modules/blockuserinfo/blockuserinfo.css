@@ -1,0 +1,152 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 4, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info {
+  margin-right: 0;
+}
+/* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+.rtl .header_user_info {
+  margin-left: 0;
+  margin-right: inherit;
+}
+@media (min-width: 992px) {
+  /* line 4, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info {
+    padding: 0;
+  }
+}
+/* line 9, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .popup-title {
+  display: none;
+}
+@media (max-width: 991px) {
+  /* line 9, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .popup-title {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 15, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .popup-title a > .fa {
+    display: inline-block;
+  }
+}
+@media (max-width: 479px) {
+  /* line 19, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .popup-title span {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  /* line 25, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links {
+    padding: 6px 0;
+  }
+}
+@media (max-width: 991px) {
+  /* line 25, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links {
+    width: 150px;
+    right: 0;
+    left: auto;
+    padding: 10px 15px;
+    display: none;
+  }
+  /* line 522, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .header_user_info .links {
+    right: auto;
+    left: 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 35, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links li {
+    margin: 0px 15px 0px 15px;
+    position: relative;
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .header_user_info .links li {
+    margin: 0px 15px 0px 15px;
+  }
+  /* line 39, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links li:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    background: #e5e5e5;
+    top: 0px;
+    right: -15px;
+  }
+  /* line 369, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .header_user_info .links li:after {
+    left: -15px;
+    right: auto;
+  }
+  /* line 48, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links li:last-child {
+    margin: 0px 0px 0px 15px;
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .header_user_info .links li:last-child {
+    margin: 0px 15px 0px 0px;
+  }
+  /* line 50, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links li:last-child:after {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  /* line 35, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links li {
+    display: block;
+    padding: 3px 0;
+  }
+  /* line 58, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links li .ap-btn-wishlist {
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 62, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links li a {
+    margin: 0;
+  }
+}
+@media (max-width: 991px) {
+  /* line 62, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links li a {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+  }
+}
+/* line 71, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .links span {
+  font-size: 13px;
+}
+@media (min-width: 1200px) {
+  /* line 74, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links .fa {
+    display: none;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  /* line 74, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .links .fa {
+    display: none;
+  }
+}

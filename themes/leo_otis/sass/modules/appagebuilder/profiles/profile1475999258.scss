@@ -1,0 +1,59 @@
+@import "compass";
+@import "theme_variables";
+
+// ************* Home 4 ***************
+#index #columns{
+	padding-bottom: 0;
+}
+
+.box-service{
+	@media (max-width: 991px) {
+		margin-top: 30px;
+	}
+	.group-service{
+		@media (min-width: 992px) {
+			padding: 0;
+			@include rtl-border-right(1px solid $nocolor);
+			&:last-child{
+				border: none;
+			}
+		}
+		.service{
+			padding: 35px 0;
+		}
+	}
+}
+
+.box-blog-testimonials{
+	.group-blogs{
+		margin-top: 50px;
+		@media (max-width: 767px) {
+			margin-top: 30px;
+		}
+	}
+	.group-testimonials{
+		margin-top: 40px;
+	}
+}
+
+.box-product-one-six{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	@media (max-width: 991px) {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.product-block{
+		background: $white;
+	}
+}
+
+.box-manufacturers{
+
+}
+
+.box-category-bg{
+	& > [class*="col-"]{
+		min-height: 0;
+	}
+}

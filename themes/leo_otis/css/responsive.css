@@ -1,0 +1,162 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@media (max-width: 1196px) and (min-width: 992px) {
+  /* line 6, ../sass/responsive.scss */
+  .editortool .label-customize {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 12, ../sass/responsive.scss */
+  #guestTracking .form-group {
+    overflow: hidden;
+  }
+  /* line 14, ../sass/responsive.scss */
+  #guestTracking .form-group i {
+    padding-left: 10px;
+  }
+  /* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #guestTracking .form-group i {
+    padding-right: 10px;
+    padding-left: inherit;
+  }
+  /* line 18, ../sass/responsive.scss */
+  #guestTracking .form-control {
+    float: left;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #guestTracking .form-control {
+    float: right;
+  }
+  /* line 21, ../sass/responsive.scss */
+  #guestTracking label {
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #guestTracking label {
+    float: right;
+  }
+}
+@media (max-width: 1199px) {
+  /* line 30, ../sass/responsive.scss */
+  .zoomdiv {
+    display: none !important;
+  }
+}
+@media (max-width: 991px) {
+  /* line 37, ../sass/responsive.scss */
+  .float-vertical.active > .block_content {
+    position: relative;
+  }
+
+  /* line 42, ../sass/responsive.scss */
+  #leo-verticalmenu .open > .dropdown-menu {
+    max-width: 100%;
+    position: relative;
+    left: auto !important;
+    width: 100% !important;
+    top: 100%;
+    border: none;
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #leo-verticalmenu .open > .dropdown-menu {
+    float: right;
+  }
+
+  /* line 53, ../sass/responsive.scss */
+  div.verticalmenu .dropdown-menu {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  /* line 56, ../sass/responsive.scss */
+  div.verticalmenu .navbar-nav {
+    margin: 0;
+  }
+
+  /* line 60, ../sass/responsive.scss */
+  .header_user_info .popup-title {
+    display: block;
+  }
+
+  /* line 63, ../sass/responsive.scss */
+  .dropdown-menu > li > a {
+    padding: 3px 0;
+  }
+
+  /* line 64, ../sass/responsive.scss */
+  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background: transparent;
+  }
+
+  /* line 67, ../sass/responsive.scss */
+  ul.links li .fa, ul.links li .icon {
+    width: 10px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 74, ../sass/responsive.scss */
+  html {
+    background: none;
+  }
+
+  /* line 75, ../sass/responsive.scss */
+  .navbar-header {
+    border: 1px solid #b1b1b1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+  }
+  /* line 78, ../sass/responsive.scss */
+  .navbar-header .navbar-toggle {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 40px;
+    padding: 7px 10px;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .navbar-header .navbar-toggle {
+    float: right;
+  }
+
+  /* line 86, ../sass/responsive.scss */
+  .collapse.navbar-collapse {
+    display: none !important;
+  }
+
+  /* line 89, ../sass/responsive.scss */
+  .navbar-nav {
+    float: none;
+  }
+}
+@media (max-width: 480px) {
+  /* line 98, ../sass/responsive.scss */
+  #layer_cart .layer_cart_cart .button-container {
+    text-align: center;
+  }
+
+  /* line 101, ../sass/responsive.scss */
+  #layer_cart .layer_cart_cart .button-container .btn {
+    float: none!important;
+    margin-bottom: 10px;
+  }
+}

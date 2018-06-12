@@ -1,0 +1,21 @@
+@import "compass";
+@import "theme_variables";
+
+.currencies-block{
+	.popup-title{
+		span{
+			@media (max-width: 479px) {
+				display: none;
+			}
+		}
+	}
+	.popup-content{
+		.selected a{
+			font-weight: bold;
+			font-size: 11px;
+			span{
+				text-decoration: underline;
+			}
+		}
+	}
+}

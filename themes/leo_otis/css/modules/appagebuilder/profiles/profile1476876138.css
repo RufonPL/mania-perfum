@@ -1,0 +1,309 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 5, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+#index #columns {
+  padding-bottom: 0;
+}
+
+/* line 8, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.hotline .title-hotline {
+  color: #009601;
+}
+
+/* line 11, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+a:hover, a:focus {
+  color: #e44438;
+}
+
+/* line 15, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.group-widget .title_block, .ApColumn .title_block {
+  color: #e44438;
+}
+
+@media (min-width: 992px) {
+  /* line 21, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .product-block:hover, .product-block:active, .product-block:focus {
+    border-color: #e44438;
+  }
+}
+/* line 26, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-block .group-label .label.label-price-percent-reduction {
+  background: #e44438;
+}
+/* line 29, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-block .group-label .label.label-new {
+  background: #37a829;
+}
+/* line 33, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-block .name a:hover {
+  color: #e44438;
+}
+/* line 37, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-block .left-block .functional-buttons > div:hover, .product-block .left-block .functional-buttons > div:active, .product-block .left-block .functional-buttons > div:focus {
+  background: #e44438;
+}
+/* line 42, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-block .right-block .functional-buttons .btn-product:hover, .product-block .right-block .functional-buttons .btn-product:active, .product-block .right-block .functional-buttons .btn-product:focus {
+  background: #e44438;
+}
+/* line 48, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-block .quickview:hover .btn-product, .product-block .quickview:active .btn-product, .product-block .quickview:focus .btn-product {
+  color: #e44438;
+}
+
+@media (min-width: 992px) {
+  /* line 56, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .carousel-buttons .carousel-control:hover, .carousel-buttons .carousel-control:focus, .owl-buttons div:hover, .owl-buttons div:focus {
+    background: #e44438;
+  }
+}
+/* line 63, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.service:hover, .service:active, .service:focus {
+  background: #37a829;
+}
+
+/* line 68, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+#slideshow {
+  margin-bottom: 30px;
+}
+/* line 70, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+#slideshow .group-slideshow {
+  margin-top: 20px;
+}
+/* line 72, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+#slideshow .group-slideshow .ApSlideShow {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+/* line 77, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+#slideshow .iview-controlNav div.iview-items ul li a.iview-control {
+  background: white;
+  width: 10px;
+  height: 10px;
+}
+/* line 81, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+#slideshow .iview-controlNav div.iview-items ul li a.iview-control.active {
+  background: transparent;
+  border-color: white;
+}
+
+/* line 89, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-three-banner .banner {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  /* line 89, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-three-banner .banner {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 98, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-product-tabs {
+  margin-top: 60px;
+}
+@media (max-width: 767px) {
+  /* line 98, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-product-tabs {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  /* line 105, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-product-tabs .product-tabs .title_block {
+    float: none;
+    margin-bottom: 5px;
+  }
+}
+
+/* line 115, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-tabs .nav-tabs > li.active > a {
+  color: #e44438;
+}
+/* line 117, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-tabs .nav-tabs > li.active > a:before {
+  background: #e44438;
+}
+/* line 120, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-tabs .nav-tabs > li.active > a:after {
+  border-color: #e44438 transparent transparent transparent;
+}
+/* line 125, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-tabs .nav-tabs > li > a:hover, .product-tabs .nav-tabs > li > a:active, .product-tabs .nav-tabs > li > a:focus {
+  color: #e44438;
+}
+/* line 127, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.product-tabs .nav-tabs > li > a:hover:before, .product-tabs .nav-tabs > li > a:active:before, .product-tabs .nav-tabs > li > a:focus:before {
+  background: #e44438;
+}
+
+/* line 135, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-left-right-column-1 {
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+  /* line 135, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-left-right-column-1 {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 135, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-left-right-column-1 {
+    margin-top: 10px;
+  }
+}
+/* line 145, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-left-right-column-1 .group-right-column .product-sidebar .product-block {
+  margin-bottom: 28px;
+}
+/* line 149, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-left-right-column-1 .group-right-column .product-tabs .product-block .product-meta {
+  padding: 15px 15px 20px;
+}
+/* line 156, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-left-right-column-1 .group-left-column .product-deal-column .product-block .product-desc {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* line 168, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-banner {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 168, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-banner {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 175, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-banner .group-banner {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 182, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-left-right-column-2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  /* line 182, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-left-right-column-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 182, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-left-right-column-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 193, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-left-right-column-2 .group-right-column {
+    margin-top: 30px;
+  }
+}
+
+/* line 205, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-categories-carousel {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+@media (max-width: 991px) {
+  /* line 205, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-categories-carousel {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 205, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-categories-carousel {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 219, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-product-list {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  /* line 219, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-product-list {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 219, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-product-list {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 232, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-blog-testimonials {
+    position: relative;
+  }
+  /* line 235, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-blog-testimonials:before {
+    content: '';
+    margin: 0 -1000px;
+    height: 1px;
+    display: block !important;
+    background: #e9e9e9;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+  }
+}
+/* line 247, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+.box-blog-testimonials .group-blogs {
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+  /* line 247, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-blog-testimonials .group-blogs {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 253, ../../../../sass/modules/appagebuilder/profiles/profile1476876138.scss */
+  .box-blog-testimonials .group-testimonials {
+    margin-top: 40px;
+  }
+}

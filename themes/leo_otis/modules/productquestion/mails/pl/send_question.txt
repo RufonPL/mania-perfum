@@ -1,0 +1,16 @@
+
+
+	{customer} has sent you a question about product below.
+
+	{product}: {product_link}
+
+	Name: {name}
+	Email: {email}
+	Message: {message}
+	
+
+	{shop_name} - {shop_url}
+
+	
+
+	{shop_url} powered by PrestaShop&trade;

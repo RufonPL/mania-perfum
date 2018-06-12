@@ -1,0 +1,45 @@
+// footer.scss
+@import "vars/footer.vars";
+
+.logo-footer{
+	padding-bottom: 25px;
+	display: block;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 27px;
+}
+.box-copyright-payment{
+	@media (min-width: 768px) {
+		@include display-flex();
+		@include align-items(center);
+	}
+	@media (max-width: 767px) {
+		text-align: center;
+	}
+	.group-copyright{
+		.copyright{
+			padding: 18px 0;
+			color: #d9d9d9;
+			font-size: 13px;
+			font-weight: 300;
+			@media (max-width: 767px) {
+				padding: 18px 0 0;
+			}
+			span{
+				color: $theme-color-tertiary;
+			}
+		}
+	}
+	.group-logopayment{
+		@media (min-width: 768px) {
+			@include rtl-text-align-right();
+		}
+		@media (max-width: 767px) {
+			padding: 10px 0 15px;
+		}
+		.logopayment{
+			img{
+				display: inline-block;
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+<div class="hotline-top hotline"><div class="title-hotline">hotline</div><div class="content-hotline">Call us <b>24/7</b>: {$blockcontactinfos_phone|escape:'html':'UTF-8'} </div></div>

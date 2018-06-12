@@ -1,0 +1,108 @@
+@import "compass";
+@import "theme_variables";
+
+/* Block newsletter */
+#columns #newsletter_block_left {	 
+	.success_inline, .warning_inline {
+		@include rtl-text-align-left();
+		padding: 1px 0 0 0;
+		margin-bottom: -19px;	
+	}
+	.success_inline	{
+		color: #418B19;
+	}
+	.warning_inline {
+		color: #f13340;
+	}
+}
+/* Block newsletter footer */
+#footer { 
+	#newsletter_block_left {
+		@media (min-width: 768px) {
+			@include display-flex();
+			@include align-items(center);
+		}
+		@media (max-width: 767px){
+			text-align: center;
+			padding: 0 0 25px;
+		}
+		form{
+			.form-group{
+			@include border-radius(4px);
+			overflow: hidden;
+				@include display-flex();
+				margin-bottom: 0;
+				&.form-error{
+					border: 1px solid #a94442;
+					input[type="text"]{
+						color: #a94442;
+					}
+				}
+				&.form-ok{
+					border: 1px solid #3c763d;
+					input[type="text"]{
+						color: #3c763d;
+					}
+				}
+			}
+			position: relative;
+			input[type="text"]{
+				border: none;
+				background: rgba($white,0.1);
+				@include rounded-corners (0);
+				padding: 0 18px;
+				height: 40px;
+				line-height: 40px;
+				color: #999999;
+				&:hover,&:active,&:focus{
+					outline: 0;
+					@include box-shadow(none);
+				}
+				
+			}
+			.btn{
+				background: $theme-color-tertiary;
+				color: #1f2f44;
+				padding: 0 16px;
+				height: 40px;
+				line-height: 40px;
+				border: none;
+				font-size: 14px;
+				font-weight: bold;
+				@include border-radius(0px);
+				@include transition(all 0.3s ease);
+				&:hover,&:active,&:focus{
+					outline: 0;
+					@include box-shadow(none);
+					color: $white;
+				}
+			}
+		}
+		.warning_inline { 
+			color: #f13340;  
+			clear: both;
+		}
+  		.success_inline	{
+			color: #418B19;
+		}
+	}
+	.block_title{
+		padding-top: 15px;
+		padding-bottom: 20px;
+		@media (max-width: 767px){
+			padding-top: 0px;
+			padding-bottom: 10px;
+		}
+		.title-block{
+			font-size: 30px;
+			color: $white;
+			font-weight: bold;
+			margin-bottom: 0;
+			border-bottom: none;
+		}
+		.sub-title{
+			font-size: 13px;
+			color: #999999;
+		}
+	}
+}

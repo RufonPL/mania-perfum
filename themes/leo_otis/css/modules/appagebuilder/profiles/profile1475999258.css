@@ -1,0 +1,83 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 5, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+#index #columns {
+  padding-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  /* line 9, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+  .box-service {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 13, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+  .box-service .group-service {
+    padding: 0;
+    border-right: 1px solid transparent;
+  }
+  /* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-service .group-service {
+    border-left: 1px solid transparent;
+    border-right: inherit;
+  }
+  /* line 17, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+  .box-service .group-service:last-child {
+    border: none;
+  }
+}
+/* line 21, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+.box-service .group-service .service {
+  padding: 35px 0;
+}
+
+/* line 28, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+.box-blog-testimonials .group-blogs {
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+  /* line 28, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+  .box-blog-testimonials .group-blogs {
+    margin-top: 30px;
+  }
+}
+/* line 34, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+.box-blog-testimonials .group-testimonials {
+  margin-top: 40px;
+}
+
+/* line 39, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+.box-product-one-six {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media (max-width: 991px) {
+  /* line 39, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+  .box-product-one-six {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+/* line 46, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+.box-product-one-six .product-block {
+  background: white;
+}
+
+/* line 56, ../../../../sass/modules/appagebuilder/profiles/profile1475999258.scss */
+.box-category-bg > [class*="col-"] {
+  min-height: 0;
+}

@@ -1,0 +1,258 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* line 5, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+#index #columns {
+  padding-bottom: 0;
+}
+
+/* line 8, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+#slideshow {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 12, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+#slideshow .group-slideshow .ApSlideShow {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  /* line 17, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  #slideshow .group-banner {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 991px) and (min-width: 479px) {
+  /* line 17, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  #slideshow .group-banner {
+    padding: 0;
+  }
+}
+/* line 24, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+#slideshow .group-banner .banner {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+@media (max-width: 991px) and (min-width: 479px) {
+  /* line 24, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  #slideshow .group-banner .banner {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+  }
+  /* line 260, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl #slideshow .group-banner .banner {
+    float: right;
+  }
+}
+/* line 33, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+#slideshow .group-banner .banner:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  /* line 40, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-service {
+    margin: 0 0 0 0;
+  }
+  /* line 284, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-service {
+    margin: 0 0 0 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 44, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-service .group-service {
+    padding: 0;
+    border-right: 1px solid transparent;
+  }
+  /* line 271, D:/www/prestashop/dev/new/leo_otis/themes/leo_otis/sass/mixins/_theme.scss */
+  .rtl .box-service .group-service {
+    border-left: 1px solid transparent;
+    border-right: inherit;
+  }
+  /* line 48, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-service .group-service:last-child {
+    border: none;
+  }
+}
+
+/* line 55, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-left-right-center-column-1 {
+  margin-top: 60px;
+}
+@media (max-width: 767px) {
+  /* line 55, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-1 {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 55, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-1 {
+    margin-top: 10px;
+  }
+}
+
+/* line 65, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-left-right-center-column-2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  /* line 65, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-2 {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 479px) {
+  /* line 65, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-2 {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 75, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-2 .group-center-column {
+    margin-top: 30px;
+  }
+}
+/* line 79, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-left-right-center-column-2 .group-center-column .product-no-padding {
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+  /* line 79, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-2 .group-center-column .product-no-padding {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 79, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-2 .group-center-column .product-no-padding {
+    margin-top: 10px;
+  }
+}
+/* line 90, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-left-right-center-column-2 .group-left-column .testimonials {
+  padding: 30px 30px 40px;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  /* line 90, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-2 .group-left-column .testimonials {
+    padding: 20px 20px 20px;
+  }
+}
+/* line 96, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-left-right-center-column-2 .group-left-column .testimonials .right-testimonials .descript {
+  margin: 17px 0 10px;
+}
+/* line 99, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-left-right-center-column-2 .group-left-column .testimonials .right-testimonials .title {
+  margin-top: 15px;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  /* line 104, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-2 .group-left-column .testimonials .owl-controls {
+    margin-top: 5px;
+  }
+}
+/* line 111, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-left-right-center-column-2 .group-right-column .blog-sidebar {
+  margin-top: 65px;
+}
+@media (max-width: 991px) {
+  /* line 111, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-left-right-center-column-2 .group-right-column .blog-sidebar {
+    margin-top: 30px;
+  }
+}
+
+/* line 121, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-product-one-six {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media (max-width: 991px) {
+  /* line 121, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-product-one-six {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 121, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-product-one-six {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+/* line 132, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-product-one-six .product-block {
+  background: white;
+}
+
+/* line 141, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-categories-carousel {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+@media (max-width: 991px) {
+  /* line 141, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-categories-carousel {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 141, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-categories-carousel {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 155, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-product-list {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  /* line 155, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-product-list {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 479px) {
+  /* line 155, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+  .box-product-list {
+    margin-top: 10px;
+  }
+}
+/* line 165, ../../../../sass/modules/appagebuilder/profiles/profile1475823567.scss */
+.box-product-list .product-block {
+  background: white;
+}

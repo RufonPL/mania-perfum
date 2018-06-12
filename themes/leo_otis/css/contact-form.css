@@ -1,0 +1,76 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/**************************************************************************
+					Contact Page Styles
+**************************************************************************/
+/* line 8, ../sass/contact-form.scss */
+.contact-title {
+  margin: -5px 0 27px 0;
+  line-height: 23px;
+}
+/* line 11, ../sass/contact-form.scss */
+.contact-title i {
+  font-size: 23px;
+  color: #c0c0c0;
+  padding: 0 8px 0 0;
+}
+
+/* line 18, ../sass/contact-form.scss */
+.contact-form-box {
+  padding: 23px 0 0 0;
+  margin: 0 0 30px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+}
+/* line 23, ../sass/contact-form.scss */
+.contact-form-box fieldset {
+  padding: 0 19px 21px 19px;
+  background: url(../img/form-contact-shadow.png) center bottom no-repeat;
+}
+/* line 28, ../sass/contact-form.scss */
+.contact-form-box .col-md-3 {
+  padding-left: 0;
+}
+@media (max-width: 991px) {
+  /* line 28, ../sass/contact-form.scss */
+  .contact-form-box .col-md-3 {
+    padding-right: 0;
+  }
+}
+/* line 34, ../sass/contact-form.scss */
+.contact-form-box .col-md-9 {
+  padding-right: 0;
+}
+@media (max-width: 991px) {
+  /* line 34, ../sass/contact-form.scss */
+  .contact-form-box .col-md-9 {
+    padding-left: 0;
+  }
+}
+/* line 40, ../sass/contact-form.scss */
+.contact-form-box #desc_contact0 {
+  display: none;
+}
+/* line 43, ../sass/contact-form.scss */
+.contact-form-box #message {
+  height: 240px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 47, ../sass/contact-form.scss */
+  .contact-form-box div.uploader span.filename {
+    width: 114px;
+  }
+}
